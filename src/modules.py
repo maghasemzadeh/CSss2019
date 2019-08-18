@@ -102,7 +102,7 @@ def plot_2d(df: pd.DataFrame, x: str, y: str, color: str = None, trendline: bool
         color = None
     if trendline:
         trendline = 'ols'
-    px.scatter(df, x=x, y=y, color=color, trendline=trendline).show()
+    return px.scatter(df, x=x, y=y, color=color, trendline=trendline)
 
 
 def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, color: str = None) -> go.Figure:
@@ -145,7 +145,7 @@ def heatmap(df: pd.DataFrame, x: str, y: str) -> go.Figure:
     if not y in df.columns:
         logger.log_error('y not found in columns')
         return
-    px.density_heatmap(df, x=x, y=y).show()
+    return px.density_heatmap(df, x=x, y=y)
 
 
 def view(df: pd.DataFrame, start: int = None, end: int = None) -> pd.DataFrame:
