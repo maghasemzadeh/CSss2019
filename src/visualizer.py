@@ -14,7 +14,7 @@ def load():
 
         global x_box, y_box, df, selected_y, selected_x
 
-        df = drop_na(pd.read_csv(files_cmb.get() + '.csv'))
+        df = drop_na(pd.read_csv('../data_sets/' + files_cmb.get() + '.csv'))
         dataset_summarize.set(df)
 
         dataset_lbl.place_forget()
@@ -85,7 +85,7 @@ def back():
     init_place()
 
 
-files = [x.replace('.csv', '') for x in glob.glob('../data_sets/*.csv')]
+files = [x.replace('.csv', '').replace('../data_sets/', '') for x in glob.glob('../data_sets/*.csv')]
 
 screen = Tk()
 screen.geometry('800x800')
