@@ -5,10 +5,21 @@ import plotly.graph_objects as go
 import logger
 import re
 import operator
+import plotly.figure_factory as ff
+
+__operation_parser__ = {
+    '<': operator.lt, '<=': operator.le, '>': operator.gt, '>=': operator.ge,
+    '==': operator.eq, '=': operator.eq, '!=': operator.ne, 'is': operator.is_,
+    '!is': operator.is_not, 'is_not': operator.is_not, 'and': operator.and_,
+    '&': operator.and_, '&&': operator.and_, 'or': operator.or_, '|': operator.or_, '||': operator.or_
+}
 
 
 def select_columns(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
-    return df[columns].copy()
+    try:
+        return df[columns].copy()
+    except:
+        logger.log_error("Column not found")
 
 
 def drop_columns(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
@@ -41,17 +52,18 @@ def drop_na(df: pd.DataFrame, columns='all') -> pd.DataFrame:
 
 
 def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions: List[str]) -> pd.DataFrame:
-    # aggregate_function: sum, count, mean, variance, sd, min, max, mode, mid
-    # groupby_columns: list of column names
-    pass
-
-
-__operation_parser__ = {
-    '<': operator.lt, '<=': operator.le, '>': operator.gt, '>=': operator.ge,
-    '==': operator.eq, '=': operator.eq, '!=': operator.ne, 'is': operator.is_,
-    '!is': operator.is_not, 'is_not': operator.is_not, 'and': operator.and_,
-    '&': operator.and_, '&&': operator.and_, 'or': operator.or_, '|': operator.or_, '||': operator.or_
-}
+    try:
+        return df[groupby_columns].describe().loc[aggregate_functions]
+    except FutureWarning:
+        for i in aggregate_functions:
+            if df["Name"].get(i) is None:
+                print(i, end=" ")
+            print("are not in the valid aggregate functions")
+    except KeyError:
+        for i in groupby_columns:
+            if df.get("Name") is None:
+                print(i, end=" ")
+            print("are not in the valid columns")
 
 
 def filter_records(df: pd.DataFrame, criteria: str) -> pd.DataFrame:
@@ -95,16 +107,23 @@ def plot_2d(df: pd.DataFrame, x: str, y: str, color: str = None, trendline: bool
     px.scatter(df, x=x, y=y, color=color, trendline=trendline).show()
 
 
-def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, color: str = None, trend_pane: bool = False) -> go.Figure:
-    pass
+def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, color: str = None) -> go.Figure:
+    if not pd.Series([x, y, z, color]).isin(df.columns).all():
+        logger.log_error('columns not found')
+        return
+    return px.scatter_3d(data_frame=df, x=x, y=y, z=z, color=color)
 
 
 def histogram(df: pd.DataFrame, x: str, bins: int = 30) -> go.Figure:
-    pass
+    if x not in df.columns:
+        logger.log_error('column not found')
+        return
+    return px.histogram(df, x=x, nbins=bins)
 
 
-def density(df: pd.DataFrame, x: str) -> go.Figure:
-    pass
+def density(df: pd.DataFrame, *columns: str, bin_size: int = .2) -> go.Figure:
+    df = select_columns(df, list(columns))
+    return ff.create_distplot([df[i] for i in df.columns], df.columns, bin_size=bin_size, curve_type="kde")
 
 
 def bar_chart(df: pd.DataFrame, x: str, y: str) -> go.Figure:
@@ -115,7 +134,10 @@ def bar_chart(df: pd.DataFrame, x: str, y: str) -> go.Figure:
 
 
 def pie_chart(df: pd.DataFrame, r: str, theta: str) -> go.Figure:
-    pass
+    if not pd.Series([theta, r]).isin(df.columns).all():
+        logger.log_error('columns not founded')
+        return
+    return px.bar_polar(df, r=r, theta=theta)
 
 
 def heatmap(df: pd.DataFrame, x: str, y: str) -> go.Figure:
@@ -126,6 +148,21 @@ def heatmap(df: pd.DataFrame, x: str, y: str) -> go.Figure:
         logger.log_error('y not found in columns')
         return
     px.density_heatmap(df, x=x, y=y).show()
+
+
+def view(df: pd.DataFrame, start: int = None, end: int = None) -> pd.DataFrame:
+    #     qgrid.show_grid(df[start:end])
+    return df[start:end]
+
+
+def head(df: pd.DataFrame, count: int = 5) -> pd.DataFrame:
+    #     qgrid.show_grid(df[:count])
+    return df[:count]
+
+
+def tail(df: pd.DataFrame, count: int = 5) -> pd.DataFrame:
+    #     qgrid.show_grid(df[count:])
+    return df[count:]
 
 
 def __pars_element__(df: pd.DataFrame, value: str):
