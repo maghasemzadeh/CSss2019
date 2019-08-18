@@ -16,10 +16,8 @@ __operation_parser__ = {
 
 
 def select_columns(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
-    try:
-        return df[columns].copy()
-    except:
-        logger.log_error("Column not found")
+    columns = [x for x in columns if x in df.columns]
+    return df[columns].copy()
 
 
 def drop_columns(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
@@ -176,3 +174,4 @@ def __pars_element__(df: pd.DataFrame, value: str):
             if value not in df.columns:
                 raise ValueError
             return df[value]
+
