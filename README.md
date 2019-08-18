@@ -14,5 +14,9 @@ Modules needed for Computer Science Summer School 2019
 
 ## how to use
 
-run visualize.py file and all done
-
+1.  open terminal
+2.  cd to project directory
+3.  run visualizer.py using following code
+```bash
+ python3 visualizer.py
+```
