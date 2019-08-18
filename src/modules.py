@@ -65,7 +65,7 @@ def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions:
 
 
 def filter_records(df: pd.DataFrame, criteria: str) -> pd.DataFrame:
-    criteria = criteria.lower().strip()
+    criteria = criteria.strip()
     if len(criteria.split(' ')) != 3:
         logger.log_error("operation must has 3 parts: '" + criteria + "'")
         return df
@@ -166,7 +166,7 @@ def tail(df: pd.DataFrame, count: int = 5) -> pd.DataFrame:
 def __pars_element__(df: pd.DataFrame, value: str):
     string_pattern = re.compile('\\"\\w+\\"')
     if re.fullmatch(string_pattern, value):
-        return
+        return value[1:-1]
     else:
         try:
             return eval(value)
