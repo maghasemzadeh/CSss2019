@@ -206,6 +206,21 @@ def unique_records(df: pd.DataFrame, columns:List[str]) -> pd.DataFrame:
     return df.drop_duplicates(columns)
 
 
+def agg(df: pd.DataFrame, column: str, function:str):
+    if not column in df.columns:
+        print('no such column ' + column)
+        return
+    if function == 'mean':
+        return df[column].mean()
+    elif function == 'max':
+        return max(df[column])
+    elif function == 'min':
+        return min(df[column])
+    else:
+        print('no such function!')
+        return
+
+
 def __pars_element__(df: pd.DataFrame, value: str):
     string_pattern = re.compile('\\"\\w+\\"')
     if re.fullmatch(string_pattern, value):
