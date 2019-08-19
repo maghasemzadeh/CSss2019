@@ -185,6 +185,15 @@ def min_record(df: pd.DataFrame, column: str) -> pd.DataFrame:
         return
     return df[df[column] == min(df[column])]
 
+
+def unique_records(df: pd.DataFrame, columns:List[str]) -> pd.DataFrame:
+    for item in columns:
+        if not df.columns.contains(item):
+            print('no such column ' + item)
+            return
+    return df.drop_duplicates(columns)
+
+
 def __pars_element__(df: pd.DataFrame, value: str):
     string_pattern = re.compile('\\"\\w+\\"')
     if re.fullmatch(string_pattern, value):
