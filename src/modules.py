@@ -62,7 +62,7 @@ def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions 
         if not df.columns.contains(item[0]):
             print('no such column ' + item[0])
             return
-        elif not valid_func.contains(item[1]):
+        elif not valid_func.__contains__(item[1]):
             print('no such function ' + item[1])
             return
         else:
@@ -171,6 +171,19 @@ def tail(df: pd.DataFrame, count: int = 5) -> pd.DataFrame:
     #     qgrid.show_grid(df[count:])
     return df[count:]
 
+
+def max_record(df: pd.DataFrame, column: str) -> pd.DataFrame:
+    if not column in df.columns:
+        print('no such column ' + column)
+        return
+    return df[df[column] == max(df[column])]
+
+
+def min_record(df: pd.DataFrame, column: str) -> pd.DataFrame:
+    if not column in df.columns:
+        print('no such column ' + column)
+        return
+    return df[df[column] == min(df[column])]
 
 def __pars_element__(df: pd.DataFrame, value: str):
     string_pattern = re.compile('\\"\\w+\\"')
