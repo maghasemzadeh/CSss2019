@@ -49,20 +49,29 @@ def drop_na(df: pd.DataFrame, columns='all') -> pd.DataFrame:
     return df_copy
 
 
-def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions: List[str]) -> pd.DataFrame:
-    try:
-        return df[groupby_columns].describe().loc[aggregate_functions]
-    except FutureWarning:
-        for i in aggregate_functions:
-            if df["Name"].get(i) is None:
-                print(i, end=" ")
-            print("are not in the valid aggregate functions")
-    except KeyError:
-        for i in groupby_columns:
-            if df.get("Name") is None:
-                print(i, end=" ")
-            print("are not in the valid columns")
-
+def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions : List[str]) -> pd.DataFrame:
+    for item in groupby_columns:
+        if not df.columns.contains(item):
+            print('no such column ' + item)
+            return
+    d = {}
+    valid_func = ['min', 'sum', 'count', 'mean', 'max', 'median', 'var', 'std']
+    for item in aggregate_functions:
+        print(item)
+        item = item.split(':')
+        if not df.columns.contains(item[0]):
+            print('no such column ' + item[0])
+            return
+        elif not valid_func.contains(item[1]):
+            print('no such function ' + item[1])
+            return
+        else:
+            d.update({
+                item[0]: item[1]
+            })
+    res = df.groupby(groupby_columns).agg(d).reset_index()
+    return res
+    
 
 def filter_records(df: pd.DataFrame, criteria: str) -> pd.DataFrame:
     criteria = criteria.strip()
