@@ -21,6 +21,7 @@ def select_columns(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
 
 
 def drop_columns(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
+    columns = [x for x in columns if x in df.columns]
     return df.copy().drop(columns=columns)
 
 
@@ -115,7 +116,8 @@ def plot_2d(df: pd.DataFrame, x: str, y: str, color: str = None, trendline: bool
 
 
 def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, color: str = None) -> go.Figure:
-    if not pd.Series([x, y, z, color]).isin(df.columns).all():
+    if color is None and not pd.Series([x, y, z]).isin(df.columns).all() or \
+            color is not None and not pd.Series([x, y, z, color]).isin(df.columns).all():
         logger.log_error('columns not found')
         return
     return px.scatter_3d(data_frame=df, x=x, y=y, z=z, color=color)
@@ -129,8 +131,7 @@ def histogram(df: pd.DataFrame, x: str, bins: int = 30) -> go.Figure:
 
 
 def density(df: pd.DataFrame, *columns: str, bin_size: int = .2) -> go.Figure:
-    df = select_columns(df, list(columns))
-    return ff.create_distplot([df[i] for i in df.columns], df.columns, bin_size=bin_size, curve_type="kde")
+    return ff.create_distplot([df[i] for i in columns if i in df.columns], [i for i in columns if i in df.columns], bin_size=bin_size, curve_type="kde")
 
 
 def bar_chart(df: pd.DataFrame, x: str, y: str) -> go.Figure:
@@ -194,7 +195,6 @@ def box_plot(df: pd.DataFrame, x: str, y: str) -> go.Figure:
         logger.log_error('columns not founded')
         return
     return px.box(df, x=x, y=y)
-
 
 
 def __pars_element__(df: pd.DataFrame, value: str):
