@@ -185,6 +185,18 @@ def min_record(df: pd.DataFrame, column: str) -> pd.DataFrame:
         return
     return df[df[column] == min(df[column])]
 
+def sort(df: pd.DataFrame, columns: List[str], ascending: bool) -> pd.DataFrame:
+    return df.sort_values(by=columns, ascending=ascending)
+
+
+def box_plot(df: pd.DataFrame, x: str, y: str) -> go.Figure:
+    if not pd.Series([x, y]).isin(df.columns).all():
+        logger.log_error('columns not founded')
+        return
+    return px.box(df, x=x, y=y)
+
+
+
 def __pars_element__(df: pd.DataFrame, value: str):
     string_pattern = re.compile('\\"\\w+\\"')
     if re.fullmatch(string_pattern, value):
