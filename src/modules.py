@@ -134,11 +134,11 @@ def density(df: pd.DataFrame, *columns: str, bin_size: int = .2) -> go.Figure:
     return ff.create_distplot([df[i] for i in columns if i in df.columns], [i for i in columns if i in df.columns], bin_size=bin_size, curve_type="kde")
 
 
-def bar_chart(df: pd.DataFrame, x: str, y: str) -> go.Figure:
+def bar_chart(df: pd.DataFrame, x: str, y: str, color: str = None) -> go.Figure:
     if not pd.Series([x, y]).isin(df.columns).all():
         logger.log_error('columns not founded')
         return
-    return px.bar(df, x=x, y=y)
+    return px.bar(df, x=x, y=y, color=color)
 
 
 def pie_chart(df: pd.DataFrame, r: str, theta: str) -> go.Figure:
