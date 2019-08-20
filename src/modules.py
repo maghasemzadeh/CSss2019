@@ -209,7 +209,7 @@ def box_plot(df: pd.DataFrame, x: str, y: str, criteria: str = None) -> go.Figur
 
 def unique_records(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
     for item in columns:
-        if not df.columns.contains(item):
+        if item not in df.columns:
             print('no such column ' + item)
             return
     return df.drop_duplicates(columns)
