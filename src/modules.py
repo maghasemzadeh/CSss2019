@@ -6,6 +6,7 @@ import logger
 import re
 import operator
 import plotly.figure_factory as ff
+import numpy as np
 
 __operation_parser__ = {
     '<': operator.lt, '<=': operator.le, '>': operator.gt, '>=': operator.ge,
@@ -233,3 +234,38 @@ def __pars_element__(df: pd.DataFrame, value: str):
                 raise ValueError
             return df[value]
 
+
+def tokenize(f):
+    symbols = ['(', ')', '=', '+', '-', '*', '/', '%', '^', '==', '<=', '>=', '>', '<', '<>', '!=']
+    f = f.replace(' ', '')
+    tokens = []
+    token = ''
+    i = 0
+    while i < len(f):
+        if f[i] in symbols:
+            if token != '':
+                tokens.append((token, 'operand'))
+                token = ''
+            if f[i:i + 2] in symbols:
+                tokens.append((f[i:i + 2], 'symbol'))
+                i += 1
+            else:
+                tokens.append((f[i], 'symbol'))
+        else:
+            token += f[i]
+        i += 1
+    if token != '':
+        tokens.append((token, 'operand'))
+
+    return tokens
+
+
+def apply(df: pd.DataFrame, new_col: str,  formula: str) -> pd.DataFrame:
+    new_df = df.copy()
+    tokens = tokenize(formula)
+    for t in tokens:
+        if t[1] is 'operand':
+            if not t[0].isdigit() and '.' not in t[0]:
+                formula = formula.replace(t[0], 'df[\'' + t[0] + '\']')
+    new_df[new_col] = eval(formula)
+    return new_df
