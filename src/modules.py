@@ -15,6 +15,10 @@ __operation_parser__ = {
     '&': operator.and_, '&&': operator.and_, 'or': operator.or_, '|': operator.or_, '||': operator.or_
 }
 
+def show_columns(df: pd.DataFrame) :
+    out = [i  for i in df.columns]
+    return out
+
 
 def select_columns(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
     columns = [x for x in columns if x in df.columns]
