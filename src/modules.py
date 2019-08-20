@@ -4,9 +4,6 @@ from typing import List
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
-# import re
-# import operator
-# import numpy as np
 
 
 def show_columns(df: pd.DataFrame):
@@ -14,7 +11,9 @@ def show_columns(df: pd.DataFrame):
     return out
 
 
-def select_columns(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
+def select_columns(df: pd.DataFrame, columns: List[str], criteria: str = None) -> pd.DataFrame:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     columns = [x for x in columns if x in df.columns]
     return df[columns].copy()
 
@@ -71,61 +70,20 @@ def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions 
             })
     res = df.groupby(groupby_columns).agg(d).reset_index()
     return res
-    
-
-# __operation_parser__ = {
-#     '<': operator.lt, '<=': operator.le, '>': operator.gt, '>=': operator.ge,
-#     '==': operator.eq, '=': operator.eq, '!=': operator.ne, 'is': operator.is_,
-#     '!is': operator.is_not, 'is_not': operator.is_not, 'and': operator.and_,
-#     '&': operator.and_, '&&': operator.and_, 'or': operator.or_, '|': operator.or_, '||': operator.or_
-# }
-
-# def filter_records(df: pd.DataFrame, criteria: str) -> pd.DataFrame:
-#     criteria = criteria.strip()
-#     if len(criteria.split(' ')) != 3:
-#         logger.log_error("operation must has 3 parts: '" + criteria + "'")
-#         return df
-#
-#     first_elm, operation, second_elm = criteria.split(' ')
-#
-#     try:
-#         first_elm = __pars_element__(df, first_elm)
-#         second_elm = __pars_element__(df, second_elm)
-#     except ValueError:
-#         logger.log_error("dataframe column not found.")
-#         return df
-#
-#     try:
-#         df = df[__operation_parser__[operation](first_elm, second_elm)]
-#     except KeyError:
-#         logger.log_error("Operation not found. Valid operations are:\n"
-#                          "<\t<=\t>\t>=\n"
-#                          "=\t==\t!=\tis\n"
-#                          "!is\tis_not\tand\t&\n"
-#                          "&&\tor\t||\t|")
-#     return df
-# def __pars_element__(df: pd.DataFrame, value: str):
-#     string_pattern = re.compile('\\"\\w+\\"')
-#     if re.fullmatch(string_pattern, value):
-#         return value[1:-1]
-#     else:
-#         try:
-#             return eval(value)
-#         except NameError:
-#             if value not in df.columns:
-#                 raise ValueError
-#             return df[value]
 
 
 def filter_records(df: pd.DataFrame, criteria: str) -> pd.DataFrame:
     try:
-        result = df[pd.eval(criteria)]
+        result = df[df.eval(criteria)]
         return result
     except Exception as e:
         logger.log_error(e)
+        return df
 
 
-def plot_2d(df: pd.DataFrame, x: str, y: str, color: str = None, trendline: bool = False) -> go.Figure:
+def plot_2d(df: pd.DataFrame, x: str, y: str, color: str = None, trendline: bool = False, criteria: str = None) -> go.Figure:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if not x in df.columns:
         logger.log_error('x not found in columns')
         return
@@ -140,7 +98,9 @@ def plot_2d(df: pd.DataFrame, x: str, y: str, color: str = None, trendline: bool
     return px.scatter(df, x=x, y=y, color=color, trendline=trendline)
 
 
-def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, color: str = None) -> go.Figure:
+def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, color: str = None, criteria: str = None) -> go.Figure:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if color is None and not pd.Series([x, y, z]).isin(df.columns).all() or \
             color is not None and not pd.Series([x, y, z, color]).isin(df.columns).all():
         logger.log_error('columns not found')
@@ -148,32 +108,42 @@ def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, color: str = None) -> go.F
     return px.scatter_3d(data_frame=df, x=x, y=y, z=z, color=color)
 
 
-def histogram(df: pd.DataFrame, x: str, bins: int = 30) -> go.Figure:
+def histogram(df: pd.DataFrame, x: str, bins: int = 30, criteria: str = None) -> go.Figure:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if x not in df.columns:
         logger.log_error('column not found')
         return
     return px.histogram(df, x=x, nbins=bins)
 
 
-def density(df: pd.DataFrame, *columns: str, bin_size: int = .2) -> go.Figure:
+def density(df: pd.DataFrame, *columns: str, bin_size: int = .2, criteria: str = None) -> go.Figure:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     return ff.create_distplot([df[i] for i in columns if i in df.columns], [i for i in columns if i in df.columns], bin_size=bin_size, curve_type="kde")
 
 
-def bar_chart(df: pd.DataFrame, x: str, y: str, color: str = None) -> go.Figure:
+def bar_chart(df: pd.DataFrame, x: str, y: str, color: str = None, criteria: str = None) -> go.Figure:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if not pd.Series([x, y]).isin(df.columns).all():
         logger.log_error('columns not founded')
         return
     return px.bar(df, x=x, y=y, color=color)
 
 
-def pie_chart(df: pd.DataFrame, r: str, theta: str) -> go.Figure:
+def pie_chart(df: pd.DataFrame, r: str, theta: str, criteria: str = None) -> go.Figure:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if not pd.Series([theta, r]).isin(df.columns).all():
         logger.log_error('columns not founded')
         return
     return px.bar_polar(df, r=r, theta=theta)
 
 
-def heatmap(df: pd.DataFrame, x: str, y: str) -> go.Figure:
+def heatmap(df: pd.DataFrame, x: str, y: str, criteria: str = None) -> go.Figure:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if not x in df.columns:
         logger.log_error('x not found in columns')
         return
@@ -183,47 +153,61 @@ def heatmap(df: pd.DataFrame, x: str, y: str) -> go.Figure:
     return px.density_heatmap(df, x=x, y=y)
 
 
-def view(df: pd.DataFrame, start: int = None, end: int = None) -> pd.DataFrame:
+def view(df: pd.DataFrame, start: int = None, end: int = None, criteria: str = None) -> pd.DataFrame:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     #     qgrid.show_grid(df[start:end])
     return df[start:end]
 
 
-def head(df: pd.DataFrame, count: int = 5) -> pd.DataFrame:
+def head(df: pd.DataFrame, count: int = 5, criteria: str = None) -> pd.DataFrame:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     #     qgrid.show_grid(df[:count])
     return df[:count]
 
 
-def tail(df: pd.DataFrame, count: int = 5) -> pd.DataFrame:
+def tail(df: pd.DataFrame, count: int = 5, criteria: str = None) -> pd.DataFrame:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     #     qgrid.show_grid(df[count:])
     return df[count:]
 
 
-def max_record(df: pd.DataFrame, column: str) -> pd.DataFrame:
+def max_record(df: pd.DataFrame, column: str, criteria: str = None) -> pd.DataFrame:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if not column in df.columns:
         print('no such column ' + column)
         return
     return df[df[column] == max(df[column])]
 
 
-def min_record(df: pd.DataFrame, column: str) -> pd.DataFrame:
+def min_record(df: pd.DataFrame, column: str, criteria: str = None) -> pd.DataFrame:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if not column in df.columns:
         print('no such column ' + column)
         return
     return df[df[column] == min(df[column])]
 
 
-def sort(df: pd.DataFrame, columns: List[str], ascending: bool) -> pd.DataFrame:
+def sort(df: pd.DataFrame, columns: List[str], ascending: bool, criteria: str = None) -> pd.DataFrame:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     return df.sort_values(by=columns, ascending=ascending)
 
 
-def box_plot(df: pd.DataFrame, x: str, y: str) -> go.Figure:
+def box_plot(df: pd.DataFrame, x: str, y: str, criteria: str = None) -> go.Figure:
+    if criteria is not None:
+        df = filter_records(df, criteria)
     if not pd.Series([x, y]).isin(df.columns).all():
         logger.log_error('columns not founded')
         return
     return px.box(df, x=x, y=y)
 
 
-def unique_records(df: pd.DataFrame, columns:List[str]) -> pd.DataFrame:
+def unique_records(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
     for item in columns:
         if not df.columns.contains(item):
             print('no such column ' + item)
