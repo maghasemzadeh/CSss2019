@@ -117,7 +117,7 @@ def histogram(df: pd.DataFrame, x: str, bins: int = 30, criteria: str = None) ->
     return px.histogram(df, x=x, nbins=bins)
 
 
-def density(df: pd.DataFrame, *columns: str, bin_size: int = .2, criteria: str = None) -> go.Figure:
+def density(df: pd.DataFrame, columns: List[str], bin_size: int = .2, criteria: str = None) -> go.Figure:
     if criteria is not None:
         df = filter_records(df, criteria)
     return ff.create_distplot([df[i] for i in columns if i in df.columns], [i for i in columns if i in df.columns], bin_size=bin_size, curve_type="kde")
