@@ -1,22 +1,16 @@
+import logger
 import pandas as pd
 from typing import List
 import plotly.express as px
 import plotly.graph_objects as go
-import logger
-import re
-import operator
 import plotly.figure_factory as ff
-import numpy as np
+# import re
+# import operator
+# import numpy as np
 
-__operation_parser__ = {
-    '<': operator.lt, '<=': operator.le, '>': operator.gt, '>=': operator.ge,
-    '==': operator.eq, '=': operator.eq, '!=': operator.ne, 'is': operator.is_,
-    '!is': operator.is_not, 'is_not': operator.is_not, 'and': operator.and_,
-    '&': operator.and_, '&&': operator.and_, 'or': operator.or_, '|': operator.or_, '||': operator.or_
-}
 
-def show_columns(df: pd.DataFrame) :
-    out = [i  for i in df.columns]
+def show_columns(df: pd.DataFrame):
+    out = [i for i in df.columns]
     return out
 
 
@@ -79,30 +73,56 @@ def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions 
     return res
     
 
+# __operation_parser__ = {
+#     '<': operator.lt, '<=': operator.le, '>': operator.gt, '>=': operator.ge,
+#     '==': operator.eq, '=': operator.eq, '!=': operator.ne, 'is': operator.is_,
+#     '!is': operator.is_not, 'is_not': operator.is_not, 'and': operator.and_,
+#     '&': operator.and_, '&&': operator.and_, 'or': operator.or_, '|': operator.or_, '||': operator.or_
+# }
+
+# def filter_records(df: pd.DataFrame, criteria: str) -> pd.DataFrame:
+#     criteria = criteria.strip()
+#     if len(criteria.split(' ')) != 3:
+#         logger.log_error("operation must has 3 parts: '" + criteria + "'")
+#         return df
+#
+#     first_elm, operation, second_elm = criteria.split(' ')
+#
+#     try:
+#         first_elm = __pars_element__(df, first_elm)
+#         second_elm = __pars_element__(df, second_elm)
+#     except ValueError:
+#         logger.log_error("dataframe column not found.")
+#         return df
+#
+#     try:
+#         df = df[__operation_parser__[operation](first_elm, second_elm)]
+#     except KeyError:
+#         logger.log_error("Operation not found. Valid operations are:\n"
+#                          "<\t<=\t>\t>=\n"
+#                          "=\t==\t!=\tis\n"
+#                          "!is\tis_not\tand\t&\n"
+#                          "&&\tor\t||\t|")
+#     return df
+# def __pars_element__(df: pd.DataFrame, value: str):
+#     string_pattern = re.compile('\\"\\w+\\"')
+#     if re.fullmatch(string_pattern, value):
+#         return value[1:-1]
+#     else:
+#         try:
+#             return eval(value)
+#         except NameError:
+#             if value not in df.columns:
+#                 raise ValueError
+#             return df[value]
+
+
 def filter_records(df: pd.DataFrame, criteria: str) -> pd.DataFrame:
-    criteria = criteria.strip()
-    if len(criteria.split(' ')) != 3:
-        logger.log_error("operation must has 3 parts: '" + criteria + "'")
-        return df
-
-    first_elm, operation, second_elm = criteria.split(' ')
-
     try:
-        first_elm = __pars_element__(df, first_elm)
-        second_elm = __pars_element__(df, second_elm)
-    except ValueError:
-        logger.log_error("dataframe column not found.")
-        return df
-
-    try:
-        df = df[__operation_parser__[operation](first_elm, second_elm)]
-    except KeyError:
-        logger.log_error("Operation not found. Valid operations are:\n"
-                         "<\t<=\t>\t>=\n"
-                         "=\t==\t!=\tis\n"
-                         "!is\tis_not\tand\t&\n"
-                         "&&\tor\t||\t|")
-    return df
+        result = df[pd.eval(criteria)]
+        return result
+    except Exception as e:
+        logger.log_error(e)
 
 
 def plot_2d(df: pd.DataFrame, x: str, y: str, color: str = None, trendline: bool = False) -> go.Figure:
@@ -191,6 +211,7 @@ def min_record(df: pd.DataFrame, column: str) -> pd.DataFrame:
         return
     return df[df[column] == min(df[column])]
 
+
 def sort(df: pd.DataFrame, columns: List[str], ascending: bool) -> pd.DataFrame:
     return df.sort_values(by=columns, ascending=ascending)
 
@@ -200,7 +221,6 @@ def box_plot(df: pd.DataFrame, x: str, y: str) -> go.Figure:
         logger.log_error('columns not founded')
         return
     return px.box(df, x=x, y=y)
-
 
 
 def unique_records(df: pd.DataFrame, columns:List[str]) -> pd.DataFrame:
@@ -224,19 +244,6 @@ def agg(df: pd.DataFrame, column: str, function:str):
     else:
         print('no such function!')
         return
-
-
-def __pars_element__(df: pd.DataFrame, value: str):
-    string_pattern = re.compile('\\"\\w+\\"')
-    if re.fullmatch(string_pattern, value):
-        return value[1:-1]
-    else:
-        try:
-            return eval(value)
-        except NameError:
-            if value not in df.columns:
-                raise ValueError
-            return df[value]
 
 
 def tokenize(f):
