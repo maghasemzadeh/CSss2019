@@ -48,9 +48,9 @@ def drop_na(df: pd.DataFrame, columns='all') -> pd.DataFrame:
     return df_copy
 
 
-def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions : List[str]) -> pd.DataFrame:
+def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions: List[str]) -> pd.DataFrame:
     for item in groupby_columns:
-        if not df.columns.contains(item):
+        if item not in df.columns:
             print('no such column ' + item)
             return
     d = {}
@@ -58,7 +58,7 @@ def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions 
     for item in aggregate_functions:
         print(item)
         item = item.split(':')
-        if not df.columns.contains(item[0]):
+        if item[0] not in df.columns:
             print('no such column ' + item[0])
             return
         elif not valid_func.__contains__(item[1]):
@@ -117,7 +117,7 @@ def histogram(df: pd.DataFrame, x: str, bins: int = 30, criteria: str = None) ->
     return px.histogram(df, x=x, nbins=bins)
 
 
-def density(df: pd.DataFrame, *columns: str, bin_size: int = .2, criteria: str = None) -> go.Figure:
+def density(df: pd.DataFrame, columns: List[str], bin_size: int = .2, criteria: str = None) -> go.Figure:
     if criteria is not None:
         df = filter_records(df, criteria)
     return ff.create_distplot([df[i] for i in columns if i in df.columns], [i for i in columns if i in df.columns], bin_size=bin_size, curve_type="kde")
@@ -209,7 +209,7 @@ def box_plot(df: pd.DataFrame, x: str, y: str, criteria: str = None) -> go.Figur
 
 def unique_records(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
     for item in columns:
-        if not df.columns.contains(item):
+        if item not in df.columns:
             print('no such column ' + item)
             return
     return df.drop_duplicates(columns)
