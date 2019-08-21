@@ -49,8 +49,7 @@ def permutation_test(df, group, info):
             counter += 1
         res.append(differ)
     print("There are "+str(counter)+" times in 1000 times that we have mean difference greater or equal to our data's mean difference")
-    res = pd.DataFrame({"mean_difference":res})
-    px.histogram(res, x="mean_difference").show()
+    px.histogram(res).show()
 
 
 
