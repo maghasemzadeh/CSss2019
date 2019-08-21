@@ -1,0 +1,839 @@
+,Unnamed: 0,Title,Genre,Director,Year,Runtime,Rating,Votes,Revenue,Metascore
+0,0,Guardians of the Galaxy,Action,James Gunn,2014,121,8.1,757074,333.13,76.0
+1,1,Prometheus,Adventure,Ridley Scott,2012,124,7.0,485820,126.46,65.0
+2,2,Split,Horror,M. Night Shyamalan,2016,117,7.3,157606,138.12,62.0
+3,3,Sing,Animation,Christophe Lourdelet,2016,108,7.2,60545,270.32,59.0
+4,4,Suicide Squad,Action,David Ayer,2016,123,6.2,393727,325.02,40.0
+5,5,The Great Wall,Action,Yimou Zhang,2016,103,6.1,56036,45.13,42.0
+6,6,La La Land,Comedy,Damien Chazelle,2016,128,8.3,258682,151.06,93.0
+7,8,The Lost City of Z,Action,James Gray,2016,141,7.1,7188,8.01,78.0
+8,9,Passengers,Adventure,Morten Tyldum,2016,116,7.0,192177,100.01,41.0
+9,10,Fantastic Beasts and Where to Find Them,Adventure,David Yates,2016,133,7.5,232072,234.02,66.0
+10,11,Hidden Figures,Biography,Theodore Melfi,2016,127,7.8,93103,169.27,74.0
+11,12,Rogue One,Action,Gareth Edwards,2016,133,7.9,323118,532.17,65.0
+12,13,Moana,Animation,Ron Clements,2016,107,7.7,118151,248.75,81.0
+13,14,Colossal,Action,Nacho Vigalondo,2016,109,6.4,8612,2.87,70.0
+14,15,The Secret Life of Pets,Animation,Chris Renaud,2016,87,6.6,120259,368.31,61.0
+15,16,Hacksaw Ridge,Biography,Mel Gibson,2016,139,8.2,211760,67.12,71.0
+16,17,Jason Bourne,Action,Paul Greengrass,2016,123,6.7,150823,162.16,58.0
+17,18,Lion,Biography,Garth Davis,2016,118,8.1,102061,51.69,69.0
+18,19,Arrival,Drama,Denis Villeneuve,2016,116,8.0,340798,100.5,81.0
+19,20,Gold,Adventure,Stephen Gaghan,2016,120,6.7,19053,7.22,49.0
+20,21,Manchester by the Sea,Drama,Kenneth Lonergan,2016,137,7.9,134213,47.7,96.0
+21,23,Trolls,Animation,Walt Dohrn,2016,92,6.5,38552,153.69,56.0
+22,24,Independence Day: Resurgence,Action,Roland Emmerich,2016,120,5.3,127553,103.14,32.0
+23,28,Bad Moms,Comedy,Jon Lucas,2016,100,6.2,66540,113.08,60.0
+24,29,Assassin's Creed,Action,Justin Kurzel,2016,115,5.9,112813,54.65,36.0
+25,30,Why Him?,Comedy,John Hamburg,2016,111,6.3,48123,60.31,39.0
+26,31,Nocturnal Animals,Drama,Tom Ford,2016,116,7.5,126030,10.64,67.0
+27,32,X-Men: Apocalypse,Action,Bryan Singer,2016,144,7.1,275510,155.33,52.0
+28,33,Deadpool,Action,Tim Miller,2016,108,8.0,627797,363.02,65.0
+29,34,Resident Evil: The Final Chapter,Action,Paul W.S. Anderson,2016,107,5.6,46165,26.84,49.0
+30,35,Captain America: Civil War,Action,Anthony Russo,2016,147,7.9,411656,408.08,75.0
+31,36,Interstellar,Adventure,Christopher Nolan,2014,169,8.6,1047747,187.99,74.0
+32,37,Doctor Strange,Action,Scott Derrickson,2016,115,7.6,293732,232.6,72.0
+33,38,The Magnificent Seven,Action,Antoine Fuqua,2016,132,6.9,122853,93.38,54.0
+34,40,Sausage Party,Animation,Greg Tiernan,2016,89,6.3,120690,97.66,66.0
+35,41,Moonlight,Drama,Barry Jenkins,2016,111,7.5,135095,27.85,99.0
+36,43,The Founder,Biography,John Lee Hancock,2016,115,7.2,37033,12.79,66.0
+37,44,Lowriders,Drama,Ricardo de Montreuil,2016,99,6.3,279,4.21,57.0
+38,45,Pirates of the Caribbean: On Stranger Tides,Action,Rob Marshall,2011,136,6.7,395025,241.06,45.0
+39,46,Miss Sloane,Drama,John Madden,2016,132,7.3,17818,3.44,64.0
+40,48,Star Trek Beyond,Action,Justin Lin,2016,122,7.1,164567,158.8,68.0
+41,50,Star Wars: Episode VII - The Force Awakens,Action,J.J. Abrams,2015,136,8.1,661608,936.63,81.0
+42,51,Underworld: Blood Wars,Action,Anna Foerster,2016,91,5.8,41362,30.35,23.0
+43,52,Mother's Day,Comedy,Garry Marshall,2016,118,5.6,20221,32.46,18.0
+44,53,John Wick,Action,Chad Stahelski,2014,101,7.2,321933,43.0,68.0
+45,54,The Dark Knight,Action,Christopher Nolan,2008,152,9.0,1791916,533.32,82.0
+46,55,Silence,Adventure,Martin Scorsese,2016,161,7.3,49190,7.08,79.0
+47,56,Don't Breathe,Crime,Fede Alvarez,2016,88,7.2,121103,89.21,71.0
+48,57,Me Before You,Drama,Thea Sharrock,2016,106,7.4,113322,56.23,51.0
+49,58,Their Finest,Comedy,Lone Scherfig,2016,117,7.0,3739,3.18,76.0
+50,59,Sully,Biography,Clint Eastwood,2016,96,7.5,137608,125.07,74.0
+51,60,Batman v Superman: Dawn of Justice,Action,Zack Snyder,2016,151,6.7,472307,330.25,44.0
+52,62,The Girl on the Train,Crime,Tate Taylor,2016,112,6.5,102177,75.31,48.0
+53,63,Fifty Shades of Grey,Drama,Sam Taylor-Johnson,2015,125,4.1,244474,166.15,46.0
+54,64,The Prestige,Drama,Christopher Nolan,2006,130,8.5,913152,53.08,66.0
+55,65,Kingsman: The Secret Service,Action,Matthew Vaughn,2014,129,7.7,440209,128.25,58.0
+56,66,Patriots Day,Drama,Peter Berg,2016,133,7.4,39784,31.86,69.0
+57,67,Mad Max: Fury Road,Action,George Miller,2015,120,8.1,632842,153.63,90.0
+58,68,Wakefield,Drama,Robin Swicord,2016,106,7.5,291,0.01,61.0
+59,69,Deepwater Horizon,Action,Peter Berg,2016,107,7.2,89849,61.28,68.0
+60,71,Allied,Action,Robert Zemeckis,2016,124,7.1,78079,40.07,60.0
+61,72,A Monster Calls,Drama,J.A. Bayona,2016,108,7.5,39134,3.73,76.0
+62,73,Collateral Beauty,Drama,David Frankel,2016,97,6.8,43977,30.98,23.0
+63,74,Zootopia,Animation,Byron Howard,2016,108,8.1,296853,341.26,78.0
+64,75,Pirates of the Caribbean: At World's End,Action,Gore Verbinski,2007,169,7.1,498821,309.4,50.0
+65,76,The Avengers,Action,Joss Whedon,2012,143,8.1,1045588,623.28,69.0
+66,77,Inglourious Basterds,Adventure,Quentin Tarantino,2009,153,8.3,959065,120.52,69.0
+67,78,Pirates of the Caribbean: Dead Man's Chest,Action,Gore Verbinski,2006,151,7.3,552027,423.03,53.0
+68,79,Ghostbusters,Action,Paul Feig,2016,116,5.3,147717,128.34,60.0
+69,80,Inception,Action,Christopher Nolan,2010,148,8.8,1583625,292.57,74.0
+70,81,Captain Fantastic,Comedy,Matt Ross,2016,118,7.9,105081,5.88,72.0
+71,82,The Wolf of Wall Street,Biography,Martin Scorsese,2013,180,8.2,865134,116.87,75.0
+72,83,Gone Girl,Crime,David Fincher,2014,149,8.1,636243,167.74,79.0
+73,84,Furious Seven,Action,James Wan,2015,137,7.2,301249,350.03,67.0
+74,85,Jurassic World,Action,Colin Trevorrow,2015,124,7.0,455169,652.18,59.0
+75,86,Live by Night,Crime,Ben Affleck,2016,129,6.4,27869,10.38,49.0
+76,87,Avatar,Action,James Cameron,2009,162,7.8,935408,760.51,83.0
+77,88,The Hateful Eight,Crime,Quentin Tarantino,2015,187,7.8,341170,54.12,68.0
+78,89,The Accountant,Action,Gavin O'Connor,2016,128,7.4,162122,86.2,51.0
+79,90,Prisoners,Crime,Denis Villeneuve,2013,153,8.1,431185,60.96,74.0
+80,91,Warcraft,Action,Duncan Jones,2016,123,7.0,187547,47.17,32.0
+81,92,The Help,Drama,Tate Taylor,2011,146,8.1,342429,169.71,62.0
+82,93,War Dogs,Comedy,Todd Phillips,2016,114,7.1,106463,43.02,57.0
+83,94,Avengers: Age of Ultron,Action,Joss Whedon,2015,141,7.4,516895,458.99,66.0
+84,95,The Nice Guys,Action,Shane Black,2016,116,7.4,175067,36.25,70.0
+85,96,Kimi no na wa,Animation,Makoto Shinkai,2016,106,8.6,34110,4.68,79.0
+86,97,The Void,Horror,Jeremy Gillespie,2016,90,5.8,9247,0.15,62.0
+87,98,Personal Shopper,Drama,Olivier Assayas,2016,105,6.3,10181,1.29,77.0
+88,99,The Departed,Crime,Martin Scorsese,2006,151,8.5,937414,132.37,85.0
+89,100,Legend,Biography,Brian Helgeland,2015,132,7.0,108836,1.87,55.0
+90,101,Thor,Action,Kenneth Branagh,2011,115,7.0,570814,181.02,57.0
+91,102,The Martian,Adventure,Ridley Scott,2015,144,8.0,556097,228.43,80.0
+92,104,The Man from U.N.C.L.E.,Action,Guy Ritchie,2015,116,7.3,202973,45.43,56.0
+93,105,Hell or High Water,Crime,David Mackenzie,2016,102,7.7,115546,26.86,88.0
+94,106,The Comedian,Comedy,Taylor Hackford,2016,120,5.4,1954,1.66,40.0
+95,107,The Legend of Tarzan,Action,David Yates,2016,110,6.3,117590,126.59,44.0
+96,109,Ex Machina,Drama,Alex Garland,2014,108,7.7,339797,25.44,78.0
+97,110,The Belko Experiment,Action,Greg McLean,2016,89,6.3,3712,10.16,44.0
+98,111,12 Years a Slave,Biography,Steve McQueen,2013,134,8.1,486338,56.67,96.0
+99,113,300,Action,Zack Snyder,2006,117,7.7,637104,210.59,52.0
+100,114,Harry Potter and the Deathly Hallows: Part 2,Adventure,David Yates,2011,130,8.1,590595,380.96,87.0
+101,115,Office Christmas Party,Comedy,Josh Gordon,2016,105,5.8,30761,54.73,42.0
+102,116,The Neon Demon,Horror,Nicolas Winding Refn,2016,118,6.2,50359,1.33,51.0
+103,118,10 Cloverfield Lane,Drama,Dan Trachtenberg,2016,104,7.2,192968,71.9,76.0
+104,119,Finding Dory,Animation,Andrew Stanton,2016,97,7.4,157026,486.29,77.0
+105,120,Miss Peregrine's Home for Peculiar Children,Adventure,Tim Burton,2016,127,6.7,101058,87.24,57.0
+106,121,Divergent,Adventure,Neil Burger,2014,139,6.7,362093,150.83,48.0
+107,122,Mike and Dave Need Wedding Dates,Adventure,Jake Szymanski,2016,98,6.0,53183,46.01,51.0
+108,124,The Dark Knight Rises,Action,Christopher Nolan,2012,164,8.5,1222645,448.13,78.0
+109,125,The Jungle Book,Adventure,Jon Favreau,2016,106,7.5,198243,364.0,77.0
+110,126,Transformers: Age of Extinction,Action,Michael Bay,2014,165,5.7,255483,245.43,32.0
+111,127,Nerve,Adventure,Henry Joost,2016,96,6.6,69651,38.56,58.0
+112,128,Mamma Mia!,Comedy,Phyllida Lloyd,2008,108,6.4,153481,143.7,51.0
+113,129,The Revenant,Adventure,Alejandro González Iñárritu,2015,156,8.0,499424,183.64,76.0
+114,130,Fences,Drama,Denzel Washington,2016,139,7.3,50953,57.64,79.0
+115,131,Into the Woods,Adventure,Rob Marshall,2014,125,6.0,109756,128.0,69.0
+116,132,The Shallows,Drama,Jaume Collet-Serra,2016,86,6.4,78328,55.12,59.0
+117,133,Whiplash,Drama,Damien Chazelle,2014,107,8.5,477276,13.09,88.0
+118,134,Furious 6,Action,Justin Lin,2013,130,7.1,318051,238.67,61.0
+119,135,The Place Beyond the Pines,Crime,Derek Cianfrance,2012,140,7.3,200090,21.38,68.0
+120,136,No Country for Old Men,Crime,Ethan Coen,2007,122,8.1,660286,74.27,91.0
+121,137,The Great Gatsby,Drama,Baz Luhrmann,2013,143,7.3,386102,144.81,55.0
+122,138,Shutter Island,Mystery,Martin Scorsese,2010,138,8.1,855604,127.97,63.0
+123,140,Star Trek,Action,J.J. Abrams,2009,127,8.0,526324,257.7,82.0
+124,141,Diary of a Wimpy Kid,Comedy,Thor Freudenthal,2010,94,6.2,34184,64.0,56.0
+125,142,The Big Short,Biography,Adam McKay,2015,130,7.8,246360,70.24,81.0
+126,143,Room,Drama,Lenny Abrahamson,2015,118,8.2,224132,14.68,86.0
+127,144,Django Unchained,Drama,Quentin Tarantino,2012,165,8.4,1039115,162.8,81.0
+128,145,Ah-ga-ssi,Drama,Chan-wook Park,2016,144,8.1,33418,2.01,84.0
+129,146,The Edge of Seventeen,Comedy,Kelly Fremon Craig,2016,104,7.4,47694,14.26,77.0
+130,147,Watchmen,Action,Zack Snyder,2009,162,7.6,410249,107.5,56.0
+131,148,Superbad,Comedy,Greg Mottola,2007,113,7.6,442082,121.46,76.0
+132,149,Inferno,Action,Ron Howard,2016,121,6.2,97623,34.26,42.0
+133,150,The BFG,Adventure,Steven Spielberg,2016,117,6.4,50853,55.47,66.0
+134,151,The Hunger Games,Adventure,Gary Ross,2012,142,7.2,735604,408.0,68.0
+135,152,White Girl,Drama,Elizabeth Wood,2016,88,5.8,4299,0.2,65.0
+136,153,Sicario,Action,Denis Villeneuve,2015,121,7.6,243230,46.88,82.0
+137,155,Aliens vs Predator - Requiem,Action,Colin Strause,2007,94,4.7,97618,41.8,29.0
+138,156,Pacific Rim,Action,Guillermo del Toro,2013,131,7.0,400519,101.79,64.0
+139,157,"Crazy, Stupid, Love.",Comedy,Glenn Ficarra,2011,118,7.4,396714,84.24,68.0
+140,158,Scott Pilgrim vs. the World,Action,Edgar Wright,2010,112,7.5,291457,31.49,69.0
+141,159,Hot Fuzz,Action,Edgar Wright,2007,121,7.9,373244,23.62,81.0
+142,161,Free Fire,Action,Ben Wheatley,2016,90,7.0,6946,1.8,63.0
+143,162,X-Men: Days of Future Past,Action,Bryan Singer,2014,132,8.0,552298,233.91,74.0
+144,163,Jack Reacher: Never Go Back,Action,Edward Zwick,2016,118,6.1,78043,58.4,47.0
+145,164,Casino Royale,Action,Martin Campbell,2006,144,8.0,495106,167.01,80.0
+146,165,Twilight,Drama,Catherine Hardwicke,2008,122,5.2,361449,191.45,56.0
+147,166,Now You See Me 2,Action,Jon M. Chu,2016,129,6.5,156567,65.03,46.0
+148,167,Woman in Gold,Biography,Simon Curtis,2015,109,7.3,39723,33.31,51.0
+149,168,13 Hours,Action,Michael Bay,2016,144,7.3,76935,52.82,48.0
+150,169,Spectre,Action,Sam Mendes,2015,148,6.8,308981,200.07,60.0
+151,170,Nightcrawler,Crime,Dan Gilroy,2014,118,7.9,332476,32.28,76.0
+152,171,Kubo and the Two Strings,Animation,Travis Knight,2016,101,7.9,72778,48.02,84.0
+153,173,Her,Drama,Spike Jonze,2013,126,8.0,390531,25.56,90.0
+154,174,Frozen,Animation,Chris Buck,2013,102,7.5,451894,400.74,74.0
+155,175,Tomorrowland,Action,Brad Bird,2015,130,6.5,143069,93.42,60.0
+156,176,Dawn of the Planet of the Apes,Action,Matt Reeves,2014,130,7.6,337777,208.54,79.0
+157,177,Tropic Thunder,Action,Ben Stiller,2008,107,7.0,321442,110.42,71.0
+158,178,The Conjuring 2,Horror,James Wan,2016,134,7.4,137203,102.46,65.0
+159,179,Ant-Man,Action,Peyton Reed,2015,117,7.3,368912,180.19,64.0
+160,180,Bridget Jones's Baby,Comedy,Sharon Maguire,2016,118,6.7,43086,24.09,59.0
+161,181,The VVitch: A New-England Folktale,Horror,Robert Eggers,2015,92,6.8,101781,25.14,83.0
+162,182,Cinderella,Drama,Kenneth Branagh,2015,105,7.0,117018,201.15,67.0
+163,184,Forushande,Drama,Asghar Farhadi,2016,124,8.0,22389,3.4,85.0
+164,186,Billy Lynn's Long Halftime Walk,Drama,Ang Lee,2016,113,6.3,11944,1.72,53.0
+165,187,Crimson Peak,Drama,Guillermo del Toro,2015,119,6.6,97454,31.06,66.0
+166,188,Drive,Crime,Nicolas Winding Refn,2011,100,7.8,461509,35.05,78.0
+167,189,Trainwreck,Comedy,Judd Apatow,2015,125,6.3,106364,110.01,75.0
+168,190,The Light Between Oceans,Drama,Derek Cianfrance,2016,133,7.2,27382,12.53,60.0
+169,192,Spotlight,Crime,Tom McCarthy,2015,128,8.1,268282,44.99,93.0
+170,193,Morgan,Horror,Luke Scott,2016,92,5.8,22107,3.91,48.0
+171,194,Warrior,Action,Gavin O'Connor,2011,140,8.2,355722,13.65,71.0
+172,195,Captain America: The First Avenger,Action,Joe Johnston,2011,124,6.9,547368,176.64,66.0
+173,197,Into the Wild,Adventure,Sean Penn,2007,148,8.1,459304,18.35,73.0
+174,198,The Imitation Game,Biography,Morten Tyldum,2014,114,8.1,532353,91.12,73.0
+175,199,Central Intelligence,Action,Rawson Marshall Thurber,2016,107,6.3,97082,127.38,52.0
+176,200,Edge of Tomorrow,Action,Doug Liman,2014,113,7.9,471815,100.19,71.0
+177,201,A Cure for Wellness,Drama,Gore Verbinski,2016,146,6.5,12193,8.1,47.0
+178,202,Snowden,Biography,Oliver Stone,2016,134,7.3,79855,21.48,58.0
+179,203,Iron Man,Action,Jon Favreau,2008,126,7.9,737719,318.3,79.0
+180,204,Allegiant,Action,Robert Schwentke,2016,120,5.7,70504,66.0,33.0
+181,205,X: First Class,Action,Matthew Vaughn,2011,132,7.8,550011,146.41,65.0
+182,206,Raw (II),Drama,Julia Ducournau,2016,99,7.5,5435,0.51,81.0
+183,207,Paterson,Comedy,Jim Jarmusch,2016,118,7.5,26089,2.14,90.0
+184,208,Bridesmaids,Comedy,Paul Feig,2011,125,6.8,227912,169.08,75.0
+185,210,San Andreas,Action,Brad Peyton,2015,114,6.1,161396,155.18,43.0
+186,211,Spring Breakers,Drama,Harmony Korine,2012,94,5.3,114290,14.12,63.0
+187,212,Transformers,Action,Michael Bay,2007,144,7.1,531112,318.76,61.0
+188,214,Thor: The Dark World,Action,Alan Taylor,2013,112,7.0,443584,206.36,54.0
+189,215,Gods of Egypt,Action,Alex Proyas,2016,126,5.5,73568,31.14,25.0
+190,216,Captain America: The Winter Soldier,Action,Anthony Russo,2014,136,7.8,542362,259.75,70.0
+191,217,Monster Trucks,Action,Chris Wedge,2016,104,5.7,7044,33.04,41.0
+192,219,Kick-Ass,Action,Matthew Vaughn,2010,117,7.7,456749,48.04,66.0
+193,220,Hardcore Henry,Action,Ilya Naishuller,2015,96,6.7,61098,9.24,51.0
+194,221,Cars,Animation,John Lasseter,2006,117,7.1,283445,244.05,73.0
+195,222,It Follows,Horror,David Robert Mitchell,2014,100,6.9,136399,14.67,83.0
+196,223,The Girl with the Dragon Tattoo,Crime,David Fincher,2011,158,7.8,348551,102.52,71.0
+197,224,We're the Millers,Comedy,Rawson Marshall Thurber,2013,110,7.0,334867,150.37,44.0
+198,225,American Honey,Drama,Andrea Arnold,2016,163,7.0,19660,0.66,79.0
+199,226,The Lobster,Comedy,Yorgos Lanthimos,2015,119,7.1,121313,8.7,82.0
+200,227,Predators,Action,Nimród Antal,2010,107,6.4,179450,52.0,51.0
+201,228,Maleficent,Action,Robert Stromberg,2014,97,7.0,268877,241.41,56.0
+202,230,Pan's Labyrinth,Drama,Guillermo del Toro,2006,118,8.2,498879,37.62,98.0
+203,231,A Kind of Murder,Crime,Andy Goddard,2016,95,5.2,3305,0.0,50.0
+204,232,Apocalypto,Action,Mel Gibson,2006,139,7.8,247926,50.86,68.0
+205,233,Mission: Impossible - Rogue Nation,Action,Christopher McQuarrie,2015,131,7.4,257472,195.0,75.0
+206,234,The Huntsman: Winter's War,Action,Cedric Nicolas-Troyan,2016,114,6.1,66766,47.95,35.0
+207,235,The Perks of Being a Wallflower,Drama,Stephen Chbosky,2012,102,8.0,377336,17.74,67.0
+208,236,Jackie,Biography,Pablo Larraín,2016,100,6.8,41446,13.96,81.0
+209,237,The Disappointments Room,Drama,D.J. Caruso,2016,85,3.9,4895,2.41,31.0
+210,238,The Grand Budapest Hotel,Adventure,Wes Anderson,2014,99,8.1,530881,59.07,88.0
+211,239,The Host,Action,Andrew Niccol,2013,125,5.9,96852,26.62,35.0
+212,240,Fury,Action,David Ayer,2014,134,7.6,332234,85.71,64.0
+213,241,Inside Out,Animation,Pete Docter,2015,95,8.2,416689,356.45,94.0
+214,242,Rock Dog,Animation,Ash Brannon,2016,90,5.8,1109,9.4,48.0
+215,243,Terminator Genisys,Action,Alan Taylor,2015,126,6.5,205365,89.73,38.0
+216,244,Percy Jackson & the Olympians: The Lightning Thief,Adventure,Chris Columbus,2010,118,5.9,148949,88.76,47.0
+217,245,Les Misérables,Drama,Tom Hooper,2012,158,7.6,257426,148.78,63.0
+218,246,Children of Men,Drama,Alfonso Cuarón,2006,109,7.9,382910,35.29,84.0
+219,247,20th Century Women,Comedy,Mike Mills,2016,119,7.4,14708,5.66,83.0
+220,248,Spy,Action,Paul Feig,2015,119,7.1,188017,110.82,75.0
+221,249,The Intouchables,Biography,Olivier Nakache,2011,112,8.6,557965,13.18,57.0
+222,250,Bonjour Anne,Comedy,Eleanor Coppola,2016,92,4.9,178,0.32,50.0
+223,251,Kynodontas,Drama,Yorgos Lanthimos,2009,94,7.3,50946,0.11,73.0
+224,252,Straight Outta Compton,Biography,F. Gary Gray,2015,147,7.9,139831,161.03,72.0
+225,253,The Amazing Spider-Man 2,Action,Marc Webb,2014,142,6.7,342183,202.85,53.0
+226,254,The Conjuring,Horror,James Wan,2013,112,7.5,330305,137.39,68.0
+227,255,The Hangover,Comedy,Todd Phillips,2009,100,7.8,611563,277.31,73.0
+228,256,Battleship,Action,Peter Berg,2012,131,5.8,210349,65.17,41.0
+229,257,Rise of the Planet of the Apes,Action,Rupert Wyatt,2011,105,7.6,422290,176.74,68.0
+230,258,Lights Out,Horror,David F. Sandberg,2016,81,6.4,69823,67.24,58.0
+231,259,Norman: The Moderate Rise and Tragic Fall of a New York Fixer,Drama,Joseph Cedar,2016,118,7.1,664,2.27,76.0
+232,260,Birdman or (The Unexpected Virtue of Ignorance),Comedy,Alejandro González Iñárritu,2014,119,7.8,440299,42.34,88.0
+233,261,Black Swan,Drama,Darren Aronofsky,2010,108,8.0,581518,106.95,79.0
+234,262,Dear White People,Comedy,Justin Simien,2014,108,6.2,21715,4.4,79.0
+235,263,Nymphomaniac: Vol. I,Drama,Lars von Trier,2013,117,7.0,90556,0.79,64.0
+236,264,Teenage Mutant Ninja Turtles: Out of the Shadows,Action,Dave Green,2016,112,6.0,59312,0.54,40.0
+237,265,Knock Knock,Drama,Eli Roth,2015,99,4.9,53441,0.03,53.0
+238,266,Dirty Grandpa,Comedy,Dan Mazer,2016,102,6.0,75137,35.54,18.0
+239,267,Cloud Atlas,Drama,Tom Tykwer,2012,172,7.5,298651,27.1,55.0
+240,268,X-Men Origins: Wolverine,Action,Gavin Hood,2009,107,6.7,388447,179.88,40.0
+241,270,Skyfall,Action,Sam Mendes,2012,143,7.8,547386,304.36,81.0
+242,271,The Hobbit: An Unexpected Journey,Adventure,Peter Jackson,2012,169,7.9,668651,303.0,58.0
+243,272,21 Jump Street,Action,Phil Lord,2012,110,7.2,432046,138.45,69.0
+244,273,Sing Street,Comedy,John Carney,2016,106,8.0,52144,3.23,79.0
+245,275,Oblivion,Action,Joseph Kosinski,2013,124,7.0,410125,89.02,54.0
+246,276,22 Jump Street,Action,Phil Lord,2014,112,7.1,280110,191.62,71.0
+247,277,Zodiac,Crime,David Fincher,2007,157,7.7,329683,33.05,78.0
+248,278,Everybody Wants Some!!,Comedy,Richard Linklater,2016,117,7.0,36312,3.37,83.0
+249,279,Iron Man Three,Action,Shane Black,2013,130,7.2,591023,408.99,62.0
+250,280,Now You See Me,Crime,Louis Leterrier,2013,115,7.3,492324,117.7,50.0
+251,281,Sherlock Holmes,Action,Guy Ritchie,2009,128,7.6,501769,209.02,57.0
+252,283,The Danish Girl,Biography,Tom Hooper,2015,119,7.0,110773,12.71,66.0
+253,284,Hercules,Action,Brett Ratner,2014,98,6.0,122838,72.66,47.0
+254,285,Sucker Punch,Action,Zack Snyder,2011,110,6.1,204874,36.38,33.0
+255,286,Keeping Up with the Joneses,Action,Greg Mottola,2016,105,5.8,30405,14.9,34.0
+256,287,Jupiter Ascending,Action,Lana Wachowski,2015,127,5.3,150121,47.38,40.0
+257,288,Masterminds,Action,Jared Hess,2016,95,5.8,26508,17.36,47.0
+258,290,Busanhaeng,Action,Sang-ho Yeon,2016,118,7.5,58782,2.13,72.0
+259,291,Pitch Perfect,Comedy,Jason Moore,2012,112,7.2,226631,65.0,66.0
+260,292,Neighbors 2: Sorority Rising,Comedy,Nicholas Stoller,2016,92,5.7,76327,55.29,58.0
+261,294,Man of Steel,Action,Zack Snyder,2013,143,7.1,577010,291.02,55.0
+262,295,The Choice,Drama,Ross Katz,2016,111,6.6,20514,18.71,26.0
+263,296,Ice Age: Collision Course,Animation,Mike Thurmeier,2016,94,5.7,34523,64.06,34.0
+264,297,The Devil Wears Prada,Comedy,David Frankel,2006,109,6.8,302268,124.73,62.0
+265,298,The Infiltrator,Biography,Brad Furman,2016,127,7.1,43929,15.43,66.0
+266,299,There Will Be Blood,Drama,Paul Thomas Anderson,2007,158,8.1,400682,40.22,92.0
+267,300,The Equalizer,Action,Antoine Fuqua,2014,132,7.2,249425,101.53,57.0
+268,301,Lone Survivor,Action,Peter Berg,2013,121,7.5,218996,125.07,60.0
+269,302,The Cabin in the Woods,Horror,Drew Goddard,2012,95,7.0,295554,42.04,72.0
+270,303,The House Bunny,Comedy,Fred Wolf,2008,97,5.5,67033,48.24,55.0
+271,304,She's Out of My League,Comedy,Jim Field Smith,2010,104,6.4,105619,31.58,46.0
+272,305,Inherent Vice,Comedy,Paul Thomas Anderson,2014,148,6.7,69509,8.09,81.0
+273,306,Alice Through the Looking Glass,Adventure,James Bobin,2016,113,6.2,57207,77.04,34.0
+274,308,The Fast and the Furious: Tokyo Drift,Action,Justin Lin,2006,104,6.0,193479,62.49,45.0
+275,309,How to Be Single,Comedy,Christian Ditter,2016,110,6.1,59886,46.81,51.0
+276,310,The Blind Side,Biography,John Lee Hancock,2009,129,7.7,237221,255.95,53.0
+277,311,La vie d'Adèle,Drama,Abdellatif Kechiche,2013,180,7.8,103150,2.2,88.0
+278,312,The Babadook,Drama,Jennifer Kent,2014,93,6.8,132580,0.92,86.0
+279,313,The Hobbit: The Battle of the Five Armies,Adventure,Peter Jackson,2014,144,7.4,385598,255.11,59.0
+280,314,Harry Potter and the Order of the Phoenix,Adventure,David Yates,2007,138,7.5,385325,292.0,71.0
+281,315,Snowpiercer,Action,Bong Joon Ho,2013,126,7.0,199048,4.56,84.0
+282,316,The 5th Wave,Action,J Blakeson,2016,112,5.2,73093,34.91,33.0
+283,318,The Visit,Comedy,M. Night Shyamalan,2015,94,6.2,81429,65.07,55.0
+284,319,Fast Five,Action,Justin Lin,2011,131,7.3,300803,209.81,66.0
+285,320,Step Up,Crime,Anne Fletcher,2006,104,6.5,95960,65.27,48.0
+286,321,Lovesong,Drama,So Yong Kim,2016,84,6.4,616,0.01,74.0
+287,322,RocknRolla,Action,Guy Ritchie,2008,114,7.3,203096,5.69,53.0
+288,323,In Time,Action,Andrew Niccol,2011,109,6.7,319025,37.55,53.0
+289,324,The Social Network,Biography,David Fincher,2010,120,7.7,510100,96.92,95.0
+290,325,The Last Witch Hunter,Action,Breck Eisner,2015,106,6.0,71149,27.36,34.0
+291,326,Victor Frankenstein,Drama,Paul McGuigan,2015,110,6.0,37975,5.77,36.0
+292,327,A Street Cat Named Bob,Biography,Roger Spottiswoode,2016,103,7.4,12643,0.04,54.0
+293,328,Green Room,Crime,Jeremy Saulnier,2015,95,7.0,62885,3.22,79.0
+294,329,Blackhat,Crime,Michael Mann,2015,133,5.4,43085,7.1,51.0
+295,330,Storks,Animation,Nicholas Stoller,2016,87,6.9,34248,72.66,56.0
+296,331,American Sniper,Action,Clint Eastwood,2014,133,7.3,353305,350.12,72.0
+297,332,Dallas Buyers Club,Biography,Jean-Marc Vallée,2013,117,8.0,352801,27.3,84.0
+298,333,Lincoln,Biography,Steven Spielberg,2012,150,7.4,207497,182.2,86.0
+299,334,Rush,Action,Ron Howard,2013,123,8.1,339722,26.9,75.0
+300,336,Silver Linings Playbook,Comedy,David O. Russell,2012,122,7.8,564364,132.09,81.0
+301,338,The Fault in Our Stars,Drama,Josh Boone,2014,126,7.8,271301,124.87,69.0
+302,339,Blended,Comedy,Frank Coraci,2014,117,6.5,93764,46.28,31.0
+303,340,Fast & Furious,Action,Justin Lin,2009,107,6.6,217464,155.02,46.0
+304,341,Looper,Action,Rian Johnson,2012,119,7.4,452369,66.47,84.0
+305,342,White House Down,Action,Roland Emmerich,2013,131,6.4,173320,73.1,52.0
+306,343,Pete's Dragon,Adventure,David Lowery,2016,102,6.8,36322,76.2,71.0
+307,344,Spider-Man 3,Action,Sam Raimi,2007,139,6.2,406219,336.53,59.0
+308,345,The Three Musketeers,Action,Paul W.S. Anderson,2011,110,5.8,92329,20.32,35.0
+309,346,Stardust,Adventure,Matthew Vaughn,2007,127,7.7,220664,38.35,66.0
+310,347,American Hustle,Crime,David O. Russell,2013,138,7.3,379088,150.12,90.0
+311,348,Jennifer's Body,Comedy,Karyn Kusama,2009,102,5.1,96617,16.2,47.0
+312,349,Midnight in Paris,Comedy,Woody Allen,2011,94,7.7,320323,56.82,81.0
+313,351,Joy,Drama,David O. Russell,2015,124,6.6,97679,56.44,56.0
+314,352,The Dressmaker,Comedy,Jocelyn Moorhouse,2015,119,7.1,33352,2.02,47.0
+315,353,Café Society,Comedy,Woody Allen,2016,96,6.7,45579,11.08,64.0
+316,354,Insurgent,Adventure,Robert Schwentke,2015,119,6.3,171970,130.0,42.0
+317,355,Seventh Son,Action,Sergei Bodrov,2014,102,5.5,59958,17.18,30.0
+318,357,The Theory of Everything,Biography,James Marsh,2014,123,7.7,299718,35.89,72.0
+319,358,This Is the End,Comedy,Evan Goldberg,2013,107,6.6,327838,101.47,67.0
+320,359,About Time,Comedy,Richard Curtis,2013,123,7.8,221600,15.29,55.0
+321,360,Step Brothers,Comedy,Adam McKay,2008,98,6.9,223065,100.47,51.0
+322,361,Clown,Horror,Jon Watts,2014,100,5.7,14248,0.05,42.0
+323,362,Star Trek Into Darkness,Action,J.J. Abrams,2013,132,7.8,417663,228.76,72.0
+324,363,Zombieland,Adventure,Ruben Fleischer,2009,88,7.7,409403,75.59,73.0
+325,364,"Hail, Caesar!",Comedy,Ethan Coen,2016,106,6.3,89059,30.0,72.0
+326,365,Slumdog Millionaire,Drama,Danny Boyle,2008,120,8.0,677044,141.32,86.0
+327,366,The Twilight Saga: Breaking Dawn - Part 2,Adventure,Bill Condon,2012,115,5.5,194329,292.3,52.0
+328,368,The Amazing Spider-Man,Action,Marc Webb,2012,136,7.0,474320,262.03,66.0
+329,369,Ben-Hur,Action,Timur Bekmambetov,2016,123,5.7,28326,26.38,38.0
+330,370,Sleight,Action,J.D. Dillard,2016,89,6.0,702,3.85,62.0
+331,371,The Maze Runner,Action,Wes Ball,2014,113,6.8,335531,102.41,57.0
+332,372,Criminal,Action,Ariel Vromen,2016,113,6.3,38430,14.27,36.0
+333,373,Wanted,Action,Timur Bekmambetov,2008,110,6.7,312495,134.57,64.0
+334,374,Florence Foster Jenkins,Biography,Stephen Frears,2016,111,6.9,31776,27.37,71.0
+335,375,Collide,Action,Eran Creevy,2016,99,5.7,7583,2.2,33.0
+336,376,Black Mass,Biography,Scott Cooper,2015,123,6.9,135706,62.56,68.0
+337,377,Creed,Drama,Ryan Coogler,2015,133,7.6,175673,109.71,82.0
+338,378,Swiss Army Man,Adventure,Dan Kwan,2016,97,7.1,61812,4.21,64.0
+339,379,The Expendables 3,Action,Patrick Hughes,2014,126,6.1,137568,39.29,35.0
+340,380,What We Do in the Shadows,Comedy,Jemaine Clement,2014,86,7.6,84016,3.33,76.0
+341,381,Southpaw,Drama,Antoine Fuqua,2015,124,7.4,169083,52.42,57.0
+342,383,Bridge of Spies,Drama,Steven Spielberg,2015,142,7.6,217938,72.31,81.0
+343,384,The Lego Movie,Animation,Phil Lord,2014,100,7.8,266508,257.76,83.0
+344,385,Everest,Action,Baltasar Kormákur,2015,121,7.1,154647,43.25,64.0
+345,386,Pixels,Action,Chris Columbus,2015,105,5.6,101092,78.75,27.0
+346,387,Robin Hood,Action,Ridley Scott,2010,140,6.7,221117,105.22,53.0
+347,388,The Wolverine,Action,James Mangold,2013,126,6.7,355362,132.55,60.0
+348,389,John Carter,Action,Andrew Stanton,2012,132,6.6,220667,73.06,51.0
+349,390,Keanu,Action,Peter Atencio,2016,100,6.3,31913,20.57,63.0
+350,391,The Gunman,Action,Pierre Morel,2015,115,5.8,31194,10.64,39.0
+351,392,Steve Jobs,Biography,Danny Boyle,2015,122,7.2,116112,17.75,82.0
+352,394,Grown Ups 2,Comedy,Dennis Dugan,2013,101,5.4,114482,133.67,19.0
+353,395,The Age of Adaline,Drama,Lee Toland Krieger,2015,112,7.2,112288,42.48,51.0
+354,396,The Incredible Hulk,Action,Louis Leterrier,2008,112,6.8,342355,134.52,61.0
+355,397,Couples Retreat,Comedy,Peter Billingsley,2009,113,5.5,86417,109.18,23.0
+356,399,Magic Mike,Comedy,Steven Soderbergh,2012,110,6.1,113686,113.71,72.0
+357,400,Minions,Animation,Kyle Balda,2015,91,6.4,159830,336.03,56.0
+358,403,Despicable Me,Animation,Pierre Coffin,2010,95,7.7,410607,251.5,72.0
+359,404,The Best of Me,Drama,Michael Hoffman,2014,118,6.7,49041,26.76,29.0
+360,405,The Invitation,Drama,Karyn Kusama,2015,100,6.7,40529,0.23,74.0
+361,406,Zero Dark Thirty,Drama,Kathryn Bigelow,2012,157,7.4,226661,95.72,95.0
+362,407,Tangled,Animation,Nathan Greno,2010,100,7.8,316459,200.81,71.0
+363,408,The Hunger Games: Mockingjay - Part 2,Action,Francis Lawrence,2015,137,6.6,202380,281.67,65.0
+364,409,Vacation,Adventure,John Francis Daley,2015,99,6.1,74589,58.88,34.0
+365,410,Taken,Action,Pierre Morel,2008,93,7.8,502961,145.0,50.0
+366,411,Pitch Perfect 2,Comedy,Elizabeth Banks,2015,115,6.5,108306,183.44,63.0
+367,412,Monsters University,Animation,Dan Scanlon,2013,104,7.3,252119,268.49,65.0
+368,414,Mechanic: Resurrection,Action,Dennis Gansel,2016,98,5.6,48161,21.2,38.0
+369,415,Tusk,Comedy,Kevin Smith,2014,102,5.4,34546,1.82,55.0
+370,418,Harry Potter and the Deathly Hallows: Part 1,Adventure,David Yates,2010,146,7.7,357213,294.98,65.0
+371,419,Shame,Drama,Steve McQueen,2011,101,7.2,155010,4.0,72.0
+372,420,Hanna,Action,Joe Wright,2011,111,6.8,164208,40.25,65.0
+373,421,The Babysitters,Drama,David Ross,2007,88,5.7,8914,0.04,35.0
+374,422,Pride and Prejudice and Zombies,Action,Burr Steers,2016,108,5.8,35003,10.91,45.0
+375,423,300: Rise of an Empire,Action,Noam Murro,2014,102,6.2,237887,106.37,48.0
+376,424,London Has Fallen,Action,Babak Najafi,2016,99,5.9,100702,62.4,28.0
+377,425,The Curious Case of Benjamin Button,Drama,David Fincher,2008,166,7.8,485075,127.49,70.0
+378,426,Sin City: A Dame to Kill For,Action,Frank Miller,2014,102,6.5,122185,13.75,46.0
+379,427,The Bourne Ultimatum,Action,Paul Greengrass,2007,115,8.1,525700,227.14,85.0
+380,430,3 Idiots,Comedy,Rajkumar Hirani,2009,170,8.4,238789,6.52,67.0
+381,431,Zoolander 2,Comedy,Ben Stiller,2016,102,4.7,48297,28.84,34.0
+382,432,World War Z,Action,Marc Forster,2013,116,7.0,494819,202.35,63.0
+383,433,Mission: Impossible - Ghost Protocol,Action,Brad Bird,2011,132,7.4,382459,209.36,73.0
+384,436,The Longest Ride,Drama,George Tillman Jr.,2015,123,7.1,58421,37.43,33.0
+385,437,The imposible,Drama,J.A. Bayona,2012,114,7.6,156189,19.0,73.0
+386,438,Kick-Ass 2,Action,Jeff Wadlow,2013,103,6.6,214825,28.75,41.0
+387,440,Oz the Great and Powerful,Adventure,Sam Raimi,2013,130,6.3,181521,234.9,44.0
+388,441,Brooklyn,Drama,John Crowley,2015,117,7.5,94977,38.32,87.0
+389,442,Coraline,Animation,Henry Selick,2009,100,7.7,156620,75.28,80.0
+390,443,Blue Valentine,Drama,Derek Cianfrance,2010,112,7.4,151409,9.7,81.0
+391,446,Dredd,Action,Pete Travis,2012,95,7.1,213764,13.4,59.0
+392,447,Hunt for the Wilderpeople,Adventure,Taika Waititi,2016,101,7.9,52331,5.2,81.0
+393,448,Big Hero 6,Animation,Don Hall,2014,102,7.8,309186,222.49,74.0
+394,449,Carrie,Drama,Kimberly Peirce,2013,100,5.9,113272,35.27,53.0
+395,450,Iron Man 2,Action,Jon Favreau,2010,124,7.0,556666,312.06,57.0
+396,451,Demolition,Comedy,Jean-Marc Vallée,2015,101,7.0,58720,1.82,49.0
+397,452,Pandorum,Action,Christian Alvart,2009,108,6.8,126656,10.33,28.0
+398,453,Olympus Has Fallen,Action,Antoine Fuqua,2013,119,6.5,214994,98.9,41.0
+399,454,I Am Number Four,Action,D.J. Caruso,2011,109,6.1,202682,55.09,36.0
+400,455,Jagten,Drama,Thomas Vinterberg,2012,115,8.3,192263,0.61,76.0
+401,456,The Proposal,Comedy,Anne Fletcher,2009,108,6.7,241709,163.95,48.0
+402,457,Get Hard,Comedy,Etan Cohen,2015,100,6.0,95119,90.35,34.0
+403,458,Just Go with It,Comedy,Dennis Dugan,2011,117,6.4,182069,103.03,33.0
+404,459,Revolutionary Road,Drama,Sam Mendes,2008,119,7.3,159736,22.88,69.0
+405,460,The Town,Crime,Ben Affleck,2010,125,7.6,294553,92.17,74.0
+406,461,The Boy,Horror,William Brent Bell,2016,97,6.0,51235,35.79,42.0
+407,462,Denial,Biography,Mick Jackson,2016,109,6.6,8229,4.07,63.0
+408,464,Goosebumps,Adventure,Rob Letterman,2015,103,6.3,57602,80.02,60.0
+409,465,Sherlock Holmes: A Game of Shadows,Action,Guy Ritchie,2011,129,7.5,357436,186.83,48.0
+410,466,Salt,Action,Phillip Noyce,2010,100,6.4,255813,118.31,65.0
+411,467,Enemy,Mystery,Denis Villeneuve,2013,91,6.9,111558,1.01,61.0
+412,468,District 9,Action,Neill Blomkamp,2009,112,8.0,556794,115.65,81.0
+413,469,The Other Guys,Action,Adam McKay,2010,107,6.7,199900,119.22,64.0
+414,470,American Gangster,Biography,Ridley Scott,2007,157,7.8,337835,130.13,76.0
+415,471,Marie Antoinette,Biography,Sofia Coppola,2006,123,6.4,83941,15.96,65.0
+416,472,2012,Action,Roland Emmerich,2009,158,5.8,297984,166.11,49.0
+417,473,Harry Potter and the Half-Blood Prince,Adventure,David Yates,2009,153,7.5,351059,301.96,78.0
+418,474,Argo,Biography,Ben Affleck,2012,120,7.7,481274,136.02,86.0
+419,475,Eddie the Eagle,Biography,Dexter Fletcher,2016,106,7.4,56332,15.79,54.0
+420,476,The Lives of Others,Drama,Florian Henckel von Donnersmarck,2006,137,8.5,278103,11.28,89.0
+421,480,Forgetting Sarah Marshall,Comedy,Nicholas Stoller,2008,111,7.2,226619,62.88,67.0
+422,481,The Giver,Drama,Phillip Noyce,2014,97,6.5,93799,45.09,47.0
+423,482,Triple 9,Action,John Hillcoat,2016,115,6.3,48400,12.63,52.0
+424,485,Moonrise Kingdom,Adventure,Wes Anderson,2012,94,7.8,254446,45.51,84.0
+425,486,Hairspray,Comedy,Adam Shankman,2007,117,6.7,102954,118.82,81.0
+426,487,Safe Haven,Drama,Lasse Hallström,2013,115,6.7,84765,71.35,34.0
+427,488,Focus,Comedy,Glenn Ficarra,2015,105,6.6,166489,53.85,56.0
+428,489,Ratatouille,Animation,Brad Bird,2007,111,8.0,504039,206.44,96.0
+429,490,Stake Land,Drama,Jim Mickle,2010,98,6.5,36091,0.02,66.0
+430,491,The Book of Eli,Action,Albert Hughes,2010,118,6.9,241359,94.82,53.0
+431,492,Cloverfield,Action,Matt Reeves,2008,85,7.0,313803,80.03,64.0
+432,493,Point Break,Action,Ericson Core,2015,114,5.3,44553,28.77,34.0
+433,494,Under the Skin,Drama,Jonathan Glazer,2013,108,6.3,94707,2.61,78.0
+434,495,I Am Legend,Drama,Francis Lawrence,2007,101,7.2,565721,256.39,65.0
+435,496,Men in Black 3,Action,Barry Sonnenfeld,2012,106,6.8,278379,179.02,58.0
+436,497,Super 8,Mystery,J.J. Abrams,2011,112,7.1,298913,126.98,72.0
+437,498,Law Abiding Citizen,Crime,F. Gary Gray,2009,109,7.4,228339,73.34,34.0
+438,499,Up,Animation,Pete Docter,2009,96,8.3,722203,292.98,88.0
+439,500,Maze Runner: The Scorch Trials,Action,Wes Ball,2015,131,6.3,159364,81.69,43.0
+440,501,Carol,Drama,Todd Haynes,2015,118,7.2,77995,0.25,95.0
+441,503,Youth,Comedy,Paolo Sorrentino,2015,124,7.3,52636,2.7,64.0
+442,506,Savages,Crime,Oliver Stone,2012,131,6.5,107960,47.31,59.0
+443,507,(500) Days of Summer,Comedy,Marc Webb,2009,95,7.7,398972,32.39,76.0
+444,508,Movie 43,Comedy,Elizabeth Banks,2013,94,4.3,83625,8.83,18.0
+445,509,Gravity,Drama,Alfonso Cuarón,2013,91,7.8,622089,274.08,96.0
+446,510,The Boy in the Striped Pyjamas,Drama,Mark Herman,2008,94,7.8,144614,9.03,55.0
+447,511,Shooter,Action,Antoine Fuqua,2007,124,7.2,267820,46.98,53.0
+448,512,The Happening,Sci-Fi,M. Night Shyamalan,2008,91,5.0,170897,64.51,34.0
+449,513,Bone Tomahawk,Adventure,S. Craig Zahler,2015,132,7.1,47289,66.01,72.0
+450,515,Easy A,Comedy,Will Gluck,2010,92,7.1,294950,58.4,72.0
+451,516,Exodus: Gods and Kings,Action,Ridley Scott,2014,150,6.0,137299,65.01,52.0
+452,517,Chappie,Action,Neill Blomkamp,2015,120,6.9,188769,31.57,41.0
+453,518,The Hobbit: The Desolation of Smaug,Adventure,Peter Jackson,2013,161,7.9,513744,258.36,66.0
+454,519,Half of a Yellow Sun,Drama,Biyi Bandele,2013,111,6.2,1356,0.05,51.0
+455,520,Anthropoid,Biography,Sean Ellis,2016,120,7.2,24100,2.96,59.0
+456,521,The Counselor,Crime,Ridley Scott,2013,117,5.3,84927,16.97,48.0
+457,522,Viking,Action,Andrey Kravchuk,2016,133,4.7,1830,23.05,57.0
+458,524,Trust,Crime,David Schwimmer,2010,106,7.0,36043,0.06,60.0
+459,525,Birth of the Dragon,Action,George Nolfi,2016,103,3.9,552,93.05,61.0
+460,527,The Green Inferno,Adventure,Eli Roth,2013,100,5.4,26461,7.19,38.0
+461,528,Godzilla,Action,Gareth Edwards,2014,123,6.4,318058,200.66,62.0
+462,529,The Bourne Legacy,Action,Tony Gilroy,2012,135,6.7,245374,113.17,61.0
+463,530,A Good Year,Comedy,Ridley Scott,2006,117,6.9,74674,7.46,47.0
+464,531,Friend Request,Horror,Simon Verhoeven,2016,92,5.4,12758,64.03,59.0
+465,533,Lucy,Action,Luc Besson,2014,89,6.4,352698,126.55,61.0
+466,534,A Quiet Passion,Biography,Terence Davies,2016,125,7.2,1024,1.08,77.0
+467,535,Need for Speed,Action,Scott Waugh,2014,132,6.5,143389,43.57,39.0
+468,536,Jack Reacher,Action,Christopher McQuarrie,2012,130,7.0,250811,58.68,50.0
+469,537,The Do-Over,Action,Steven Brill,2016,108,5.7,24761,0.54,22.0
+470,540,The Ghost Writer,Mystery,Roman Polanski,2010,128,7.2,137964,15.52,77.0
+471,541,Limitless,Mystery,Neil Burger,2011,105,7.4,444417,79.24,59.0
+472,545,Midnight Special,Drama,Jeff Nichols,2016,112,6.7,54787,3.71,76.0
+473,546,Don't Think Twice,Comedy,Mike Birbiglia,2016,92,6.8,10485,4.42,83.0
+474,547,Alice in Wonderland,Adventure,Tim Burton,2010,108,6.5,324898,334.19,53.0
+475,548,Chuck,Biography,Philippe Falardeau,2016,98,6.8,391,0.11,68.0
+476,550,The Break-Up,Comedy,Peyton Reed,2006,106,5.8,106381,118.68,45.0
+477,551,Loving,Biography,Jeff Nichols,2016,123,7.1,17141,7.7,79.0
+478,552,Fantastic Four,Action,Josh Trank,2015,100,4.3,121847,56.11,27.0
+479,555,The Boy Next Door,Mystery,Rob Cohen,2015,91,4.6,30180,35.39,30.0
+480,556,The Gift,Mystery,Joel Edgerton,2015,108,7.1,96688,43.77,77.0
+481,557,Dracula Untold,Action,Gary Shore,2014,92,6.3,148504,55.94,40.0
+482,558,In the Heart of the Sea,Action,Ron Howard,2015,122,6.9,90372,24.99,47.0
+483,559,Idiocracy,Adventure,Mike Judge,2006,84,6.6,115355,0.44,66.0
+484,560,The Expendables,Action,Sylvester Stallone,2010,103,6.5,283282,102.98,45.0
+485,561,Evil Dead,Fantasy,Fede Alvarez,2013,91,6.5,133113,54.24,57.0
+486,562,Sinister,Horror,Scott Derrickson,2012,110,6.8,171169,48.06,53.0
+487,563,Wreck-It Ralph,Animation,Rich Moore,2012,101,7.8,290559,189.41,72.0
+488,564,Snow White and the Huntsman,Action,Rupert Sanders,2012,127,6.1,239772,155.11,57.0
+489,565,Pan,Adventure,Joe Wright,2015,111,5.8,47804,34.96,36.0
+490,566,Transformers: Dark of the Moon,Action,Michael Bay,2011,154,6.3,338369,352.36,42.0
+491,567,Juno,Comedy,Jason Reitman,2007,96,7.5,432461,143.49,81.0
+492,568,A Hologram for the King,Comedy,Tom Tykwer,2016,98,6.1,26521,4.2,58.0
+493,569,Money Monster,Crime,Jodie Foster,2016,98,6.5,68654,41.01,55.0
+494,570,The Other Woman,Comedy,Nick Cassavetes,2014,109,6.0,110825,83.91,39.0
+495,571,Enchanted,Animation,Kevin Lima,2007,107,7.1,150353,127.71,75.0
+496,572,The Intern,Comedy,Nancy Meyers,2015,121,7.1,159582,75.27,51.0
+497,573,Little Miss Sunshine,Comedy,Jonathan Dayton,2006,101,7.8,374044,59.89,80.0
+498,574,Bleed for This,Biography,Ben Younger,2016,117,6.8,11900,4.85,62.0
+499,575,Clash of the Titans,Action,Louis Leterrier,2010,106,5.8,238206,163.19,39.0
+500,576,The Finest Hours,Action,Craig Gillespie,2016,117,6.8,44425,27.55,58.0
+501,577,Tron,Action,Joseph Kosinski,2010,125,6.8,273959,172.05,49.0
+502,578,The Hunger Games: Catching Fire,Action,Francis Lawrence,2013,146,7.6,525646,424.65,76.0
+503,579,All Good Things,Crime,Andrew Jarecki,2010,101,6.3,44158,0.58,57.0
+504,580,Kickboxer: Vengeance,Action,John Stockwell,2016,90,4.9,6809,131.56,37.0
+505,582,Sex Tape,Comedy,Jake Kasdan,2014,94,5.1,89885,38.54,36.0
+506,583,What to Expect When You're Expecting,Comedy,Kirk Jones,2012,110,5.7,60059,41.1,41.0
+507,584,Moneyball,Biography,Bennett Miller,2011,133,7.6,297395,75.61,87.0
+508,585,Ghost Rider,Action,Mark Steven Johnson,2007,114,5.2,190673,115.8,35.0
+509,586,Unbroken,Biography,Angelina Jolie,2014,137,7.2,114006,115.6,59.0
+510,587,Immortals,Action,Tarsem Singh,2011,110,6.0,142900,83.5,46.0
+511,588,Sunshine,Adventure,Danny Boyle,2007,107,7.3,199860,3.68,64.0
+512,589,Brave,Animation,Mark Andrews,2012,93,7.2,293941,237.28,69.0
+513,590,Män som hatar kvinnor,Drama,Niels Arden Oplev,2009,152,7.8,182074,10.1,76.0
+514,591,Adoration,Drama,Anne Fontaine,2013,112,6.2,25208,0.32,37.0
+515,592,The Drop,Crime,Michaël R. Roskam,2014,106,7.1,116118,10.72,69.0
+516,593,She's the Man,Comedy,Andy Fickman,2006,105,6.4,122864,2.34,45.0
+517,594,Daddy's Home,Comedy,Sean Anders,2015,96,6.1,68306,150.32,42.0
+518,595,Let Me In,Drama,Matt Reeves,2010,116,7.2,97141,12.13,79.0
+519,596,Never Back Down,Action,Jeff Wadlow,2008,110,6.6,84083,24.85,39.0
+520,597,Grimsby,Action,Louis Leterrier,2016,83,6.2,63408,6.86,44.0
+521,598,Moon,Drama,Duncan Jones,2009,97,7.9,277123,5.01,67.0
+522,599,Megamind,Animation,Tom McGrath,2010,95,7.3,183926,148.34,63.0
+523,600,Gangster Squad,Action,Ruben Fleischer,2013,113,6.7,181432,46.0,40.0
+524,601,Blood Father,Action,Jean-François Richet,2016,88,6.4,40357,93.95,66.0
+525,603,Kung Fu Panda 3,Animation,Alessandro Carloni,2016,95,7.2,89791,143.52,66.0
+526,604,The Rise of the Krays,Crime,Zackary Adler,2015,110,5.1,1630,6.53,90.0
+527,607,Horrible Bosses,Comedy,Seth Gordon,2011,98,6.9,368556,117.53,57.0
+528,608,Mommy,Drama,Xavier Dolan,2014,139,8.1,33560,3.49,74.0
+529,609,Hellboy II: The Golden Army,Action,Guillermo del Toro,2008,120,7.0,216932,75.75,78.0
+530,610,Beautiful Creatures,Drama,Richard LaGravenese,2013,124,6.2,71822,19.45,52.0
+531,611,Toni Erdmann,Comedy,Maren Ade,2016,162,7.6,24387,1.48,93.0
+532,612,The Lovely Bones,Drama,Peter Jackson,2009,135,6.7,130702,43.98,42.0
+533,613,The Assassination of Jesse James by the Coward Robert Ford,Biography,Andrew Dominik,2007,160,7.5,143564,3.9,68.0
+534,614,Don Jon,Comedy,Joseph Gordon-Levitt,2013,90,6.6,199973,24.48,66.0
+535,615,Bastille Day,Action,James Watkins,2016,92,6.3,21089,0.04,48.0
+536,616,2307: Winter's Dream,Sci-Fi,Joey Curtis,2016,101,4.0,277,20.76,53.0
+537,618,Mr. Right,Action,Paco Cabezas,2015,95,6.3,30053,0.03,52.0
+538,619,The Secret Life of Walter Mitty,Adventure,Ben Stiller,2013,114,7.3,249877,58.23,54.0
+539,620,Dope,Comedy,Rick Famuyiwa,2015,103,7.3,66400,17.47,72.0
+540,621,Underworld Awakening,Action,Måns Mårlind,2012,88,6.4,127157,62.32,39.0
+541,622,Antichrist,Drama,Lars von Trier,2009,108,6.6,94069,0.4,49.0
+542,623,Friday the 13th,Horror,Marcus Nispel,2009,97,5.6,78631,65.0,34.0
+543,624,Taken 3,Action,Olivier Megaton,2014,109,6.0,144715,89.25,26.0
+544,625,Total Recall,Action,Len Wiseman,2012,118,6.3,210965,58.88,43.0
+545,626,X-Men: The Last Stand,Action,Brett Ratner,2006,104,6.7,406540,234.36,58.0
+546,629,Night at the Museum: Secret of the Tomb,Adventure,Shawn Levy,2014,98,6.2,74886,113.73,47.0
+547,630,Love & Other Drugs,Comedy,Edward Zwick,2010,112,6.7,151519,32.36,55.0
+548,631,The Interview,Comedy,Evan Goldberg,2014,112,6.6,261536,6.11,52.0
+549,632,The Host,Comedy,Bong Joon Ho,2006,120,7.0,73491,2.2,85.0
+550,635,Knocked Up,Comedy,Judd Apatow,2007,129,7.0,309398,148.73,85.0
+551,636,Source Code,Mystery,Duncan Jones,2011,93,7.5,404884,54.7,74.0
+552,637,Lawless,Crime,John Hillcoat,2012,116,7.3,195360,37.4,58.0
+553,638,Unfriended,Drama,Levan Gabriadze,2014,83,5.6,50402,31.54,59.0
+554,639,American Reunion,Comedy,Jon Hurwitz,2012,113,6.7,178471,56.72,49.0
+555,640,The Pursuit of Happyness,Biography,Gabriele Muccino,2006,117,8.0,361105,162.59,64.0
+556,641,Relatos salvajes,Comedy,Damián Szifron,2014,122,8.1,110100,3.08,77.0
+557,643,Frantz,Drama,François Ozon,2016,113,7.5,4304,0.86,73.0
+558,646,Burnt,Comedy,John Wells,2015,101,6.6,76469,13.65,42.0
+559,649,Vampire Academy,Action,Mark Waters,2014,104,5.6,44111,7.79,30.0
+560,650,Sweeney Todd: The Demon Barber of Fleet Street,Drama,Tim Burton,2007,116,7.4,296289,52.88,83.0
+561,652,Insidious,Horror,James Wan,2010,103,6.8,219916,53.99,52.0
+562,653,Popstar: Never Stop Never Stopping,Comedy,Akiva Schaffer,2016,87,6.7,30875,9.39,68.0
+563,655,Public Enemies,Biography,Michael Mann,2009,140,7.0,240323,97.03,70.0
+564,656,Boyhood,Drama,Richard Linklater,2014,165,7.9,286722,25.36,100.0
+565,657,Teenage Mutant Ninja Turtles,Action,Jonathan Liebesman,2014,101,5.9,178527,190.87,31.0
+566,658,Eastern Promises,Crime,David Cronenberg,2007,100,7.7,198006,17.11,82.0
+567,659,The Daughter,Drama,Simon Stone,2015,96,6.7,2798,0.03,62.0
+568,660,Pineapple Express,Action,David Gordon Green,2008,111,7.0,267872,87.34,64.0
+569,661,The First Time,Comedy,Jon Kasdan,2012,95,6.9,54027,0.02,55.0
+570,662,Gone Baby Gone,Crime,Ben Affleck,2007,114,7.7,206707,20.3,72.0
+571,663,The Heat,Action,Paul Feig,2013,117,6.6,140151,159.58,60.0
+572,664,L'avenir,Drama,Mia Hansen-Løve,2016,102,7.1,5796,0.28,88.0
+573,665,Anna Karenina,Drama,Joe Wright,2012,129,6.6,75291,12.8,63.0
+574,666,Regression,Crime,Alejandro Amenábar,2015,106,5.7,26320,0.05,32.0
+575,667,Ted 2,Adventure,Seth MacFarlane,2015,115,6.3,136323,81.26,48.0
+576,668,Pain & Gain,Comedy,Michael Bay,2013,129,6.5,168875,49.87,45.0
+577,669,Blood Diamond,Adventure,Edward Zwick,2006,143,8.0,422014,57.37,64.0
+578,671,Child 44,Crime,Daniel Espinosa,2015,137,6.5,47703,1.21,41.0
+579,672,The Hurt Locker,Drama,Kathryn Bigelow,2008,131,7.6,352023,15.7,94.0
+580,673,Green Lantern,Action,Martin Campbell,2011,114,5.6,231907,116.59,39.0
+581,675,The Mist,Horror,Frank Darabont,2007,126,7.2,233346,25.59,58.0
+582,676,Escape Plan,Action,Mikael Håfström,2013,115,6.7,188004,25.12,49.0
+583,677,"Love, Rosie",Comedy,Christian Ditter,2014,102,7.2,80415,0.01,44.0
+584,678,The DUFF,Comedy,Ari Sandel,2015,101,6.5,57874,34.02,56.0
+585,679,The Age of Shadows,Action,Jee-woon Kim,2016,140,7.2,2403,0.54,78.0
+586,680,The Hunger Games: Mockingjay - Part 1,Action,Francis Lawrence,2014,123,6.7,331902,337.1,64.0
+587,681,We Need to Talk About Kevin,Drama,Lynne Ramsay,2011,112,7.5,104953,1.74,68.0
+588,682,Love & Friendship,Comedy,Whit Stillman,2016,90,6.5,16164,14.01,87.0
+589,683,The Mortal Instruments: City of Bones,Action,Harald Zwart,2013,130,5.9,112313,31.17,33.0
+590,684,Seven Pounds,Drama,Gabriele Muccino,2008,123,7.7,245144,69.95,36.0
+591,685,The King's Speech,Biography,Tom Hooper,2010,118,8.0,534388,138.8,88.0
+592,686,Hunger,Biography,Steve McQueen,2008,96,7.6,54486,0.15,82.0
+593,687,Jumper,Action,Doug Liman,2008,88,6.1,252503,80.17,35.0
+594,688,Toy Story 3,Animation,Lee Unkrich,2010,103,8.3,586669,414.98,92.0
+595,689,Tinker Tailor Soldier Spy,Drama,Tomas Alfredson,2011,122,7.1,157053,24.1,85.0
+596,690,Resident Evil: Retribution,Action,Paul W.S. Anderson,2012,96,5.4,114144,42.35,39.0
+597,691,Dear Zindagi,Drama,Gauri Shinde,2016,151,7.8,23540,1.4,56.0
+598,693,Pompeii,Action,Paul W.S. Anderson,2014,105,5.5,90188,23.22,39.0
+599,694,Life of Pi,Adventure,Ang Lee,2012,127,7.9,471109,124.98,79.0
+600,697,I Origins,Drama,Mike Cahill,2014,106,7.3,86271,0.33,57.0
+601,698,Live Free or Die Hard,Action,Len Wiseman,2007,128,7.2,347567,134.52,69.0
+602,701,Ted,Comedy,Seth MacFarlane,2012,106,7.0,494641,218.63,62.0
+603,702,RED,Action,Robert Schwentke,2010,111,7.1,250012,90.36,60.0
+604,703,Australia,Adventure,Baz Luhrmann,2008,165,6.6,106115,49.55,53.0
+605,704,Faster,Action,George Tillman Jr.,2010,98,6.5,83788,23.23,44.0
+606,707,The Hollars,Comedy,John Krasinski,2016,88,6.5,5908,1.02,53.0
+607,708,The Judge,Crime,David Dobkin,2014,141,7.4,146812,47.11,48.0
+608,709,Closed Circuit,Crime,John Crowley,2013,96,6.2,18437,5.73,50.0
+609,710,Transformers: Revenge of the Fallen,Action,Michael Bay,2009,150,6.0,335757,402.08,35.0
+610,711,La tortue rouge,Animation,Michael Dudok de Wit,2016,80,7.6,11482,0.92,86.0
+611,712,The Book of Life,Animation,Jorge R. Gutiérrez,2014,95,7.3,50388,50.15,67.0
+612,713,Incendies,Drama,Denis Villeneuve,2010,131,8.2,92863,6.86,80.0
+613,714,The Heartbreak Kid,Comedy,Bobby Farrelly,2007,116,5.8,74664,36.77,46.0
+614,715,Happy Feet,Animation,George Miller,2006,108,6.5,141141,197.99,77.0
+615,716,Entourage,Comedy,Doug Ellin,2015,104,6.6,64557,32.36,38.0
+616,717,The Strangers,Horror,Bryan Bertino,2008,86,6.2,96718,52.53,47.0
+617,718,Noah,Action,Darren Aronofsky,2014,138,5.8,209700,101.16,68.0
+618,719,Neighbors,Comedy,Nicholas Stoller,2014,97,6.4,236500,150.06,68.0
+619,720,Nymphomaniac: Vol. II,Drama,Lars von Trier,2013,123,6.7,65824,0.33,60.0
+620,721,Wild,Adventure,Jean-Marc Vallée,2014,115,7.1,95553,37.88,76.0
+621,722,Grown Ups,Comedy,Dennis Dugan,2010,102,6.0,190385,162.0,30.0
+622,723,Blair Witch,Horror,Adam Wingard,2016,89,5.1,26088,20.75,47.0
+623,724,The Karate Kid,Action,Harald Zwart,2010,140,6.2,127983,176.59,61.0
+624,725,Dark Shadows,Comedy,Tim Burton,2012,113,6.2,209326,79.71,55.0
+625,726,Friends with Benefits,Comedy,Will Gluck,2011,109,6.6,286543,55.8,63.0
+626,727,The Illusionist,Drama,Neil Burger,2006,110,7.6,309934,39.83,68.0
+627,728,The A-Team,Action,Joe Carnahan,2010,117,6.8,219116,77.21,47.0
+628,729,The Guest,Thriller,Adam Wingard,2014,100,6.7,71069,0.32,76.0
+629,730,The Internship,Comedy,Shawn Levy,2013,119,6.3,166342,44.67,42.0
+630,731,Paul,Adventure,Greg Mottola,2011,104,7.0,201707,37.37,57.0
+631,733,The Da Vinci Code,Mystery,Ron Howard,2006,149,6.6,338280,217.54,46.0
+632,734,Mr. Church,Comedy,Bruce Beresford,2016,104,7.7,16163,0.69,37.0
+633,735,Hugo,Adventure,Martin Scorsese,2011,126,7.5,259182,73.82,83.0
+634,736,The Blackcoat's Daughter,Horror,Oz Perkins,2015,93,5.6,4155,0.02,68.0
+635,737,Body of Lies,Action,Ridley Scott,2008,128,7.1,182305,39.38,57.0
+636,738,Knight of Cups,Drama,Terrence Malick,2015,118,5.7,17439,0.56,53.0
+637,739,The Mummy: Tomb of the Dragon Emperor,Action,Rob Cohen,2008,112,5.2,124554,102.18,31.0
+638,740,The Boss,Comedy,Ben Falcone,2016,99,5.4,29642,63.03,40.0
+639,741,Hands of Stone,Action,Jonathan Jakubowicz,2016,111,6.6,8998,4.71,54.0
+640,742,El secreto de sus ojos,Drama,Juan José Campanella,2009,129,8.2,144524,20.17,80.0
+641,743,True Grit,Adventure,Ethan Coen,2010,110,7.6,254904,171.03,80.0
+642,744,We Are Your Friends,Drama,Max Joseph,2015,96,6.2,25903,3.59,46.0
+643,745,A Million Ways to Die in the West,Comedy,Seth MacFarlane,2014,116,6.1,144779,42.62,44.0
+644,748,Ouija: Origin of Evil,Horror,Mike Flanagan,2016,99,6.1,30035,34.9,65.0
+645,749,Percy Jackson: Sea of Monsters,Adventure,Thor Freudenthal,2013,106,5.9,91684,68.56,39.0
+646,750,Fracture,Crime,Gregory Hoblit,2007,113,7.2,148943,39.0,68.0
+647,751,Oculus,Horror,Mike Flanagan,2013,104,6.5,92875,27.69,61.0
+648,752,In Bruges,Comedy,Martin McDonagh,2008,107,7.9,322536,7.76,67.0
+649,753,This Means War,Action,McG,2012,103,6.3,154400,54.76,31.0
+650,759,The Fighter,Action,David O. Russell,2010,116,7.8,290056,93.57,79.0
+651,760,August Rush,Drama,Kirsten Sheridan,2007,114,7.5,91229,31.66,38.0
+652,761,Chef,Comedy,Jon Favreau,2014,114,7.3,151970,31.24,68.0
+653,762,Eye in the Sky,Drama,Gavin Hood,2015,102,7.3,57826,18.7,73.0
+654,763,Eagle Eye,Action,D.J. Caruso,2008,118,6.6,156158,101.11,43.0
+655,764,The Purge,Horror,James DeMonaco,2013,85,5.7,154588,64.42,41.0
+656,765,PK,Comedy,Rajkumar Hirani,2014,153,8.2,103279,10.57,51.0
+657,767,Indiana Jones and the Kingdom of the Crystal Skull,Action,Steven Spielberg,2008,122,6.2,351361,317.01,65.0
+658,768,Paper Towns,Drama,Jake Schreier,2015,109,6.3,72515,31.99,56.0
+659,769,High-Rise,Drama,Ben Wheatley,2015,119,5.7,25928,0.34,65.0
+660,770,Quantum of Solace,Action,Marc Forster,2008,106,6.6,347798,168.37,58.0
+661,772,How to Train Your Dragon,Animation,Dean DeBlois,2010,98,8.1,523893,217.39,74.0
+662,773,Lady in the Water,Drama,M. Night Shyamalan,2006,110,5.6,82701,42.27,36.0
+663,774,The Fountain,Drama,Darren Aronofsky,2006,96,7.3,199193,10.14,51.0
+664,775,Cars 2,Animation,John Lasseter,2011,106,6.2,110490,191.45,57.0
+665,776,31,Horror,Rob Zombie,2016,102,5.1,10871,0.78,35.0
+666,780,Unknown,Action,Jaume Collet-Serra,2011,113,6.9,218679,61.09,56.0
+667,781,Self/less,Action,Tarsem Singh,2015,117,6.5,67196,12.28,34.0
+668,782,Mr. Brooks,Crime,Bruce A. Evans,2007,120,7.3,128146,28.48,45.0
+669,784,Before We Go,Comedy,Chris Evans,2014,95,6.9,31370,0.04,31.0
+670,785,Captain Phillips,Biography,Paul Greengrass,2013,134,7.8,346154,107.1,83.0
+671,787,Max Steel,Action,Stewart Hendler,2016,92,4.6,11555,3.77,22.0
+672,788,Hotel Transylvania 2,Animation,Genndy Tartakovsky,2015,89,6.7,69157,169.69,44.0
+673,789,Hancock,Action,Peter Berg,2008,92,6.4,366138,227.95,49.0
+674,790,Sisters,Comedy,Jason Moore,2015,118,6.0,50241,87.03,58.0
+675,791,The Family,Comedy,Luc Besson,2013,111,6.3,92868,36.92,42.0
+676,792,Zack and Miri Make a Porno,Comedy,Kevin Smith,2008,101,6.6,154936,31.45,56.0
+677,793,Ma vie de Courgette,Animation,Claude Barras,2016,66,7.8,4370,0.29,85.0
+678,794,Man on a Ledge,Action,Asger Leth,2012,102,6.6,129252,18.6,40.0
+679,795,No Strings Attached,Comedy,Ivan Reitman,2011,108,6.2,178243,70.63,50.0
+680,796,Rescue Dawn,Adventure,Werner Herzog,2006,120,7.3,87887,5.48,77.0
+681,797,Despicable Me 2,Animation,Pierre Coffin,2013,98,7.4,304837,368.05,62.0
+682,798,A Walk Among the Tombstones,Crime,Scott Frank,2014,114,6.5,93883,25.98,57.0
+683,799,The World's End,Action,Edgar Wright,2013,109,7.0,199813,26.0,81.0
+684,801,Seven Psychopaths,Comedy,Martin McDonagh,2012,110,7.2,196652,14.99,66.0
+685,802,Beowulf,Animation,Robert Zemeckis,2007,115,6.2,146566,82.16,59.0
+686,803,Jack Ryan: Shadow Recruit,Action,Kenneth Branagh,2014,105,6.2,103681,50.55,57.0
+687,804,1408,Fantasy,Mikael Håfström,2007,104,6.8,221073,71.98,64.0
+688,805,The Gambler,Crime,Rupert Wyatt,2014,111,6.0,52537,33.63,55.0
+689,806,Prince of Persia: The Sands of Time,Action,Mike Newell,2010,116,6.6,233148,90.76,50.0
+690,807,The Spectacular Now,Comedy,James Ponsoldt,2013,95,7.1,115751,6.85,82.0
+691,808,A United Kingdom,Biography,Amma Asante,2016,111,6.8,4771,3.9,65.0
+692,810,Turbo Kid,Action,François Simard,2015,93,6.7,19309,0.05,60.0
+693,811,Mama,Horror,Andrés Muschietti,2013,100,6.2,142560,71.59,57.0
+694,812,Orphan,Horror,Jaume Collet-Serra,2009,123,7.0,153448,41.57,42.0
+695,813,To Rome with Love,Comedy,Woody Allen,2012,112,6.3,72050,16.68,54.0
+696,814,Fantastic Mr. Fox,Animation,Wes Anderson,2009,87,7.8,149779,21.0,83.0
+697,815,Inside Man,Crime,Spike Lee,2006,129,7.6,285441,88.5,76.0
+698,817,127 Hours,Adventure,Danny Boyle,2010,94,7.6,294010,18.33,82.0
+699,818,Annabelle,Horror,John R. Leonetti,2014,99,5.4,91106,84.26,37.0
+700,821,The Imaginarium of Doctor Parnassus,Adventure,Terry Gilliam,2009,123,6.8,130153,7.69,65.0
+701,822,G.I. Joe: The Rise of Cobra,Action,Stephen Sommers,2009,118,5.8,180105,150.17,32.0
+702,823,Christine,Biography,Antonio Campos,2016,119,7.0,5855,0.3,72.0
+703,829,Disaster Movie,Comedy,Jason Friedberg,2008,87,1.9,77207,14.17,15.0
+704,830,Rocky Balboa,Drama,Sylvester Stallone,2006,102,7.2,171356,70.27,63.0
+705,831,Diary of a Wimpy Kid: Dog Days,Comedy,David Bowers,2012,94,6.4,16917,49.0,54.0
+706,832,Jane Eyre,Drama,Cary Joji Fukunaga,2011,120,7.4,67464,11.23,76.0
+707,833,Fool's Gold,Action,Andy Tennant,2008,112,5.7,62719,70.22,29.0
+708,834,The Dictator,Comedy,Larry Charles,2012,83,6.4,225394,59.62,58.0
+709,835,The Loft,Mystery,Erik Van Looy,2014,108,6.3,38804,5.98,24.0
+710,836,Bacalaureat,Crime,Cristian Mungiu,2016,128,7.5,5531,0.13,84.0
+711,837,You Don't Mess with the Zohan,Action,Dennis Dugan,2008,113,5.5,163144,100.02,54.0
+712,840,Horrible Bosses 2,Comedy,Sean Anders,2014,108,6.3,125190,54.41,40.0
+713,841,A Bigger Splash,Drama,Luca Guadagnino,2015,125,6.4,15232,1.98,74.0
+714,842,Melancholia,Drama,Lars von Trier,2011,135,7.1,137117,3.03,80.0
+715,843,The Princess and the Frog,Animation,Ron Clements,2009,97,7.1,95480,104.37,73.0
+716,844,Unstoppable,Action,Tony Scott,2010,98,6.8,157499,81.56,69.0
+717,845,Flight,Drama,Robert Zemeckis,2012,138,7.3,276347,93.75,76.0
+718,846,Home,Animation,Tim Johnson,2015,94,6.7,77447,177.34,55.0
+719,847,La migliore offerta,Crime,Giuseppe Tornatore,2013,131,7.8,77986,0.09,49.0
+720,849,42,Biography,Brian Helgeland,2013,128,7.5,69659,95.0,62.0
+721,850,21,Crime,Robert Luketic,2008,123,6.8,198395,81.16,48.0
+722,851,Begin Again,Drama,John Carney,2013,104,7.4,111875,16.17,62.0
+723,852,Out of the Furnace,Crime,Scott Cooper,2013,116,6.8,88829,11.33,63.0
+724,853,Vicky Cristina Barcelona,Drama,Woody Allen,2008,96,7.1,208770,23.21,70.0
+725,854,Kung Fu Panda,Animation,Mark Osborne,2008,92,7.6,329788,215.4,73.0
+726,855,Barbershop: The Next Cut,Comedy,Malcolm D. Lee,2016,111,5.9,9993,54.01,67.0
+727,856,Terminator Salvation,Action,McG,2009,115,6.6,297093,125.32,49.0
+728,857,Freedom Writers,Biography,Richard LaGravenese,2007,123,7.5,55648,36.58,64.0
+729,858,The Hills Have Eyes,Horror,Alexandre Aja,2006,107,6.4,136642,41.78,52.0
+730,859,Changeling,Biography,Clint Eastwood,2008,141,7.8,206793,35.71,63.0
+731,860,Remember Me,Drama,Allen Coulter,2010,113,7.2,119376,19.06,40.0
+732,862,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",Comedy,Miguel Arteta,2014,81,6.2,32310,66.95,54.0
+733,863,Locke,Drama,Steven Knight,2013,85,7.1,100890,1.36,81.0
+734,865,Horns,Drama,Alexandre Aja,2013,120,6.5,61060,0.16,46.0
+735,866,Indignation,Drama,James Schamus,2016,110,6.9,7402,3.4,78.0
+736,867,The Stanford Prison Experiment,Biography,Kyle Patrick Alvarez,2015,122,6.9,20907,0.64,67.0
+737,868,Diary of a Wimpy Kid: Rodrick Rules,Comedy,David Bowers,2011,99,6.6,20194,52.69,51.0
+738,869,Mission: Impossible III,Action,J.J. Abrams,2006,126,6.9,270429,133.38,66.0
+739,870,En man som heter Ove,Comedy,Hannes Holm,2015,116,7.7,21569,3.36,70.0
+740,871,Dragonball Evolution,Action,James Wong,2009,85,2.7,59512,9.35,45.0
+741,872,Red Dawn,Action,Dan Bradley,2012,93,5.4,64584,44.8,31.0
+742,873,One Day,Drama,Lone Scherfig,2011,107,7.0,113599,13.77,48.0
+743,874,Life as We Know It,Comedy,Greg Berlanti,2010,114,6.6,101301,53.36,39.0
+744,875,28 Weeks Later,Drama,Juan Carlos Fresnadillo,2007,100,7.0,221858,28.64,78.0
+745,876,Warm Bodies,Comedy,Jonathan Levine,2013,98,6.9,193579,66.36,59.0
+746,877,Blue Jasmine,Drama,Woody Allen,2013,98,7.3,160592,33.4,78.0
+747,878,G.I. Joe: Retaliation,Action,Jon M. Chu,2013,110,5.8,152145,122.51,41.0
+748,879,Wrath of the Titans,Action,Jonathan Liebesman,2012,99,5.8,159230,83.64,37.0
+749,880,Shin Gojira,Action,Hideaki Anno,2016,120,6.9,8365,1.91,68.0
+750,881,Saving Mr. Banks,Biography,John Lee Hancock,2013,125,7.5,125693,83.3,65.0
+751,882,Transcendence,Drama,Wally Pfister,2014,119,6.3,184564,23.01,42.0
+752,883,Rio,Animation,Carlos Saldanha,2011,96,6.9,173919,143.62,63.0
+753,884,Equals,Drama,Drake Doremus,2015,101,6.1,16361,0.03,43.0
+754,885,Babel,Drama,Alejandro González Iñárritu,2006,143,7.5,253417,34.3,69.0
+755,886,The Tree of Life,Drama,Terrence Malick,2011,139,6.8,143517,13.3,85.0
+756,887,The Lucky One,Drama,Scott Hicks,2012,101,6.5,82874,60.44,39.0
+757,888,Piranha 3D,Comedy,Alexandre Aja,2010,88,5.5,75262,25.0,53.0
+758,889,50/50,Comedy,Jonathan Levine,2011,100,7.7,281625,34.96,72.0
+759,892,Real Steel,Action,Shawn Levy,2011,127,7.1,264480,85.46,56.0
+760,893,Sex and the City,Comedy,Michael Patrick King,2008,145,5.5,102547,152.64,53.0
+761,894,Rambo,Action,Sylvester Stallone,2008,92,7.1,187077,42.72,46.0
+762,897,The Fall,Adventure,Tarsem Singh,2006,117,7.9,93036,2.28,64.0
+763,898,The Ugly Truth,Comedy,Robert Luketic,2009,96,6.5,172558,88.92,28.0
+764,899,Bride Wars,Comedy,Gary Winick,2009,89,5.5,83976,58.72,24.0
+765,900,Sleeping with Other People,Comedy,Leslye Headland,2015,101,6.5,27730,0.81,64.0
+766,901,Snakes on a Plane,Action,David R. Ellis,2006,105,5.6,118905,34.01,58.0
+767,902,What If,Comedy,Michael Dowse,2013,98,6.8,55243,3.45,59.0
+768,903,How to Train Your Dragon 2,Animation,Dean DeBlois,2014,102,7.9,237565,177.0,76.0
+769,904,RoboCop,Action,José Padilha,2014,117,6.2,190833,58.61,52.0
+770,906,"Hello, My Name Is Doris",Comedy,Michael Showalter,2015,95,6.7,12361,14.44,63.0
+771,907,Ocean's Thirteen,Crime,Steven Soderbergh,2007,122,6.9,269581,117.14,62.0
+772,908,Slither,Comedy,James Gunn,2006,95,6.5,64351,7.77,69.0
+773,909,Contagion,Drama,Steven Soderbergh,2011,106,6.6,187004,75.64,70.0
+774,910,Il racconto dei racconti - Tale of Tales,Drama,Matteo Garrone,2015,133,6.4,17565,0.08,72.0
+775,912,Bridge to Terabithia,Adventure,Gabor Csupo,2007,96,7.2,117297,82.23,74.0
+776,913,Coherence,Mystery,James Ward Byrkit,2013,89,7.2,66265,0.07,65.0
+777,914,Notorious,Biography,George Tillman Jr.,2009,122,6.7,33007,36.84,60.0
+778,915,Goksung,Drama,Hong-jin Na,2016,156,7.5,17962,0.79,81.0
+779,916,The Expendables 2,Action,Simon West,2012,103,6.6,257395,85.02,51.0
+780,918,Perfume: The Story of a Murderer,Crime,Tom Tykwer,2006,147,7.5,199387,2.21,56.0
+781,919,The Golden Compass,Adventure,Chris Weitz,2007,113,6.1,155078,70.08,51.0
+782,920,Centurion,Action,Neil Marshall,2010,97,6.4,67801,0.12,62.0
+783,921,Scouts Guide to the Zombie Apocalypse,Action,Christopher Landon,2015,93,6.3,31651,3.64,32.0
+784,922,17 Again,Comedy,Burr Steers,2009,102,6.4,152808,64.15,48.0
+785,923,No Escape,Action,John Erick Dowdle,2015,103,6.8,57921,27.29,38.0
+786,924,Superman Returns,Action,Bryan Singer,2006,154,6.1,246797,200.07,72.0
+787,925,The Twilight Saga: Breaking Dawn - Part 1,Adventure,Bill Condon,2011,117,4.9,190244,281.28,45.0
+788,926,Precious,Drama,Lee Daniels,2009,110,7.3,91623,47.54,79.0
+789,927,The Sea of Trees,Drama,Gus Van Sant,2015,110,5.9,7475,0.02,23.0
+790,930,Footloose,Comedy,Craig Brewer,2011,113,5.9,39380,51.78,58.0
+791,931,If I Stay,Drama,R.J. Cutler,2014,107,6.8,92170,50.46,46.0
+792,934,The Love Witch,Comedy,Anna Biller,2016,120,6.2,4669,0.22,82.0
+793,935,Talladega Nights: The Ballad of Ricky Bobby,Action,Adam McKay,2006,108,6.6,137502,148.21,66.0
+794,936,The Human Centipede (First Sequence),Horror,Tom Six,2009,92,4.4,60655,0.18,33.0
+795,937,Super,Comedy,James Gunn,2010,96,6.8,64535,0.32,50.0
+796,940,The Midnight Meat Train,Horror,Ryûhei Kitamura,2008,98,6.1,50255,0.07,58.0
+797,941,The Twilight Saga: Eclipse,Adventure,David Slade,2010,124,4.9,192740,300.52,58.0
+798,943,What's Your Number?,Comedy,Mark Mylod,2011,106,6.1,62095,13.99,35.0
+799,944,Riddick,Action,David Twohy,2013,119,6.4,132098,42.0,49.0
+800,947,King Cobra,Crime,Justin Kelly,2016,91,5.6,3990,0.03,48.0
+801,948,After Earth,Action,M. Night Shyamalan,2013,100,4.9,166512,60.52,33.0
+802,949,Kicks,Adventure,Justin Tipping,2016,80,6.1,2417,0.15,69.0
+803,950,Me and Earl and the Dying Girl,Comedy,Alfonso Gomez-Rejon,2015,105,7.8,92076,6.74,74.0
+804,951,The Descendants,Comedy,Alexander Payne,2011,115,7.3,211348,82.62,84.0
+805,952,Sex and the City 2,Comedy,Michael Patrick King,2010,146,4.3,62403,95.33,27.0
+806,953,The Kings of Summer,Adventure,Jordan Vogt-Roberts,2013,95,7.2,65653,1.29,61.0
+807,954,Death Race,Action,Paul W.S. Anderson,2008,105,6.4,173731,36.06,43.0
+808,955,That Awkward Moment,Comedy,Tom Gormican,2014,94,6.2,81823,26.05,36.0
+809,956,Legion,Action,Scott Stewart,2010,100,5.2,84158,40.17,32.0
+810,957,End of Watch,Crime,David Ayer,2012,109,7.7,192190,40.98,68.0
+811,958,3 Days to Kill,Action,McG,2014,117,6.2,73567,30.69,40.0
+812,959,Lucky Number Slevin,Crime,Paul McGuigan,2006,110,7.8,271940,22.49,53.0
+813,960,Trance,Crime,Danny Boyle,2013,101,7.0,97141,2.32,61.0
+814,961,Into the Forest,Drama,Patricia Rozema,2015,101,5.9,10220,0.01,59.0
+815,962,The Other Boleyn Girl,Biography,Justin Chadwick,2008,115,6.7,88260,26.81,50.0
+816,963,I Spit on Your Grave,Crime,Steven R. Monroe,2010,108,6.3,60133,0.09,27.0
+817,970,Texas Chainsaw 3D,Horror,John Luessenhop,2013,92,4.8,37060,34.33,62.0
+818,972,Rock of Ages,Comedy,Adam Shankman,2012,123,5.9,64513,38.51,47.0
+819,973,Scream 4,Horror,Wes Craven,2011,111,6.2,108544,38.18,52.0
+820,974,Queen of Katwe,Biography,Mira Nair,2016,124,7.4,6753,8.81,73.0
+821,975,My Big Fat Greek Wedding 2,Comedy,Kirk Jones,2016,94,6.0,20966,59.57,37.0
+822,979,The Skin I Live In,Drama,Pedro Almodóvar,2011,120,7.6,108772,3.19,70.0
+823,980,Miracles from Heaven,Biography,Patricia Riggen,2016,109,7.0,12048,61.69,44.0
+824,981,Annie,Comedy,Will Gluck,2014,118,5.3,27312,85.91,33.0
+825,982,Across the Universe,Drama,Julie Taymor,2007,133,7.4,95172,24.34,56.0
+826,983,Let's Be Cops,Comedy,Luke Greenfield,2014,104,6.5,112729,82.39,30.0
+827,984,Max,Adventure,Boaz Yakin,2015,111,6.8,21405,42.65,47.0
+828,985,Your Highness,Adventure,David Gordon Green,2011,102,5.6,87904,21.56,31.0
+829,986,Final Destination 5,Horror,Steven Quale,2011,92,5.9,88000,42.58,50.0
+830,987,Endless Love,Drama,Shana Feste,2014,104,6.3,33688,23.39,30.0
+831,990,Underworld: Rise of the Lycans,Action,Patrick Tatopoulos,2009,92,6.6,129708,45.8,44.0
+832,991,Taare Zameen Par,Drama,Aamir Khan,2007,165,8.5,102697,1.2,42.0
+833,993,Resident Evil: Afterlife,Action,Paul W.S. Anderson,2010,97,5.9,140900,60.13,37.0
+834,994,Project X,Comedy,Nima Nourizadeh,2012,88,6.7,164088,54.72,48.0
+835,996,Hostel: Part II,Horror,Eli Roth,2007,94,5.5,73152,17.54,46.0
+836,997,Step Up 2: The Streets,Drama,Jon M. Chu,2008,98,6.2,70699,58.01,50.0
+837,999,Nine Lives,Comedy,Barry Sonnenfeld,2016,87,5.3,12435,19.64,11.0
