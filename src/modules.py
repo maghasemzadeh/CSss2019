@@ -48,9 +48,9 @@ def drop_na(df: pd.DataFrame, columns='all') -> pd.DataFrame:
     return df_copy
 
 
-def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions : List[str]) -> pd.DataFrame:
+def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions: List[str]) -> pd.DataFrame:
     for item in groupby_columns:
-        if not df.columns.contains(item):
+        if item not in df.columns:
             print('no such column ' + item)
             return
     d = {}
@@ -58,7 +58,7 @@ def summarize(df: pd.DataFrame, groupby_columns: List[str], aggregate_functions 
     for item in aggregate_functions:
         print(item)
         item = item.split(':')
-        if not df.columns.contains(item[0]):
+        if item[0] not in df.columns:
             print('no such column ' + item[0])
             return
         elif not valid_func.__contains__(item[1]):
