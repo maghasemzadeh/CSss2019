@@ -43,11 +43,11 @@ def getAccuracy(testSet, predictions):
     return (correct / float(len(testSet))) * 100.0
 
 
-def iris_knn(df, k, target, train_attr):
-    y_train, y_test, x_train, x_test = train_test_split(df[train_attr],
-                                                        df[target], random_state=0, test_size=0.05)
-    print("X_train shape: {}\ny_train shape: {}".format(x_train.shape, y_train.shape))
-    print("X_test shape: {}\ny_test shape: {}".format(x_test.shape, y_test.shape))
+def iris_knn(df, k, train_attr, target):
+    y_train, y_test, x_train, x_test = train_test_split(df[target],
+                                                        df[train_attr], random_state=0, test_size=0.05)
+    # print("X_train shape: {}\ny_train shape: {}".format(x_train.shape, y_train.shape))
+    # print("X_test shape: {}\ny_test shape: {}".format(x_test.shape, y_test.shape))
 
     train_set = x_train
     test_set = x_test

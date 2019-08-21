@@ -9,8 +9,11 @@ def random_grouping(df, group, info):
     data = df[info]
     random.shuffle(data)
     number = sum(df[group])
-    sickness = ["sick" for i in range(number)]
-    sickness += ["not sick" for i in range(59 - number)]
+    sickness1 = ["group1" for i in range(number)]
+    sickness2 = ["group2" for i in range(59 - number)]
+    sickness = sickness1 + sickness2
+    print("mean of group1: "+ str(mean(data[0:number])))
+    print("mean of group2: " + str(mean(data[number:])))
     new_data = pd.DataFrame({"Smokes": data, "group": sickness})
     fig = px.box(new_data, x="group", y="Smokes", points="all")
     fig.show()
@@ -49,7 +52,8 @@ def permutation_test(df, group, info):
             counter += 1
         res.append(differ)
     print("There are "+str(counter)+" times in 1000 times that we have mean difference greater or equal to our data's mean difference")
-    px.histogram(res).show()
+    res = pd.DataFrame({"mean-differences":res})
+    px.histogram(res, x="mean-differences").show()
 
 
 
