@@ -1,24 +1,26 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import plotly.express as px
 import numpy as np
 import random
 
 
 def random_grouping(df, group, info):
-    data = pd.DataFrame({"info":df[info],"groups":df[group]})
-    numbers = random.sample(range(0, data["groups"].size), sum(data["groups"]))
-    others= [i for i in range(0, data["groups"].size) if i not in numbers]
-    first = data["info"][numbers]
-    second = data["info"][others]
-    plt.boxplot([first, second], labels=["sick","not sick"])
-    plt.show()
+    data = df[info]
+    random.shuffle(data)
+    number = sum(df[group])
+    sickness = ["sick" for i in range(number)]
+    sickness += ["not sick" for i in range(59 - number)]
+    new_data = pd.DataFrame({"Smokes": data, "group": sickness})
+    fig = px.box(new_data, x="group", y="Smokes", points="all")
+    fig.show()
 
 
 def box_diagram(df, group, info):
-    first_group = df[df[group] == 1][info]
-    second_group = df[df[group] == 0][info]
-    plt.boxplot([first_group, second_group], labels=["sick", "not sick"])
-    plt.show()
+    new = np.where(df[group] == 1, "sick", "not sick")
+    data = pd.DataFrame({"Smokes":df[info], "group":new})
+    fig = px.box(data, x="group", y="Smokes", points="all")
+    fig.show()
 
 
 def mean(datas):
@@ -47,8 +49,7 @@ def permutation_test(df, group, info):
             counter += 1
         res.append(differ)
     print("There are "+str(counter)+" times in 1000 times that we have mean difference greater or equal to our data's mean difference")
-    plt.hist(res)
-    plt.show()
+    px.histogram(res).show()
 
 
 
